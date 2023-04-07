@@ -71,7 +71,16 @@ where baseFee is the fixed-per-block network fee per gas and priorityTip is an a
 
 **Parameter Settings**
 
-**点击图片可查看完整电子表格**
+| Key                      | Type    | Initial Values | Description                                                  |
+| ------------------------ | ------- | -------------- | ------------------------------------------------------------ |
+| NoBaseFee                | bool    | FALSE          | control the base fee adjustment                              |
+| BaseFeeChangeDenominator | uint32  | 7              | bounds the amount the base fee that can change between blocks |
+| ElasticityMultiplier     | uint32  | 2              | bounds the threshold which the base fee will increase or decrease depending on the total gas used in the previous block |
+| BaseFee                  | uint32  | 1000000000     | base fee for EIP-1559 blocks                                 |
+| EnableHeight             | uint32  | 0              | height which enable fee adjustment                           |
+| MinGasPrice              | sdk.Dec | 0              | global minimum gas price that needs to be paid to include a transaction in a block |
+
+
 
 **Fee Allocation**
 
@@ -90,7 +99,21 @@ The UPTICK token is integrated into Uptick Network's consensus engine through a 
 
 **Parameter Settings**
 
-**点击图片可查看完整电子表格**
+| **Key**             | **Type**        | **Initial Values**     |
+| ------------------- | --------------- | ---------------------- |
+| UnbondingTime       | string          | "1814400s"             |
+| MaxValidators       | uint16          | 137                    |
+| KeyMaxEntries       | uint16          | 7                      |
+| HistoricalEntries   | uint16          | 3                      |
+| BondDenom           | string          | "stake"                |
+| MinCommissionRate   | string          | "0.000000000000000000" |
+| InflationRateChange | string (dec)    | "0.40000000000000000"  |
+| InflationMax        | string (dec)    | "0.070000000000000000" |
+| InflationMin        | string (dec)    | "0.100000000000000000" |
+| GoalBonded          | string (dec)    | "0.50000000000000000"  |
+| BlocksPerYear       | string (uint64) | "6311520"              |
+
+
 
 **Staking Rewards Allocation**
 
@@ -138,7 +161,16 @@ Uptick's governance can be performed through community voting, including but not
 
 **Parameter Settings**
 
-**点击图片可查看完整电子表格**
+| **Key**            | **Type**        | **Initial Values**                                     |
+| ------------------ | --------------- | ------------------------------------------------------ |
+| min_deposit        | array (coins)   | [{"denom":"auptick","amount":"100000000000000000000"}] |
+| max_deposit_period | string (time s) | "172800s"                                              |
+| voting_period      | string (time s) | "172800s"                                              |
+| quorum             | string (dec)    | "0.334000000000000000"                                 |
+| threshold          | string (dec)    | "0.500000000000000000"                                 |
+| veto               | string (dec)    | "0.334000000000000000"                                 |
+
+
 
 **Extended Rule-based Governance**
 
@@ -389,3 +421,4 @@ The following are the confirmed plans with clear goals:
 Uptick Network's tokenomic model includes multiple layers, such as general governance, Uptick DAO governance, and a multi-chain economy model. This combined model is more comprehensive and scalable than a simple chain-based model, with token economics at each layer ensuring chain-level security and supporting the healthy growth of business grade ecosystems.
 
 Furthermore, Uptick Network intends to introduce a long-term performance based dev-mining program aimed at gradually expanding infrastructure and supporting a diverse range of ecosystem applications.
+
