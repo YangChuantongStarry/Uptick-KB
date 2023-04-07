@@ -49,7 +49,7 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 
 - Extended Rule-based Governance
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/image/RuleBased.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.png">
 
 **Fees**
 
@@ -258,7 +258,7 @@ By designing multi-layered token economics, Uptick Network aims to create a comp
 
 _The following figure illustrates the structure of Uptick Network's multi-layered token economics:_
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/image/StructureofUptick.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/StructureofUptick.png">
 
 A multi-layered token economy offers several advantages:
 
@@ -296,7 +296,7 @@ The Uptick DAO is a set of rule-based smart contracts built using EVM contracts 
 
 This contract ensures both the powerful decentralized finance functions of EVM contracts and the decentralized management models of the Cosmos system.
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/image/validators.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/validators.png">
 
 Uptick DAO Governance will cover different categories with different rules, such as rights management, business grade application development and operation, decentralized data services, etc.
 
@@ -322,7 +322,7 @@ _Example:_
 
 - Ultimately, the successful execution of EARP rules, such as stake to earn and transaction to earn, can generate more profits for stakers through transaction fees, truly achieving a win-win situation.
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/image/EappRules.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/EappRules.png">
 
 **Multi-Chain Economy Model**
 
