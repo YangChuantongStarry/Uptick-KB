@@ -153,7 +153,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
  Therefore, Uptick provides support for mainstream EVM and WASM contracts and seamless conversion between the two types of assets at the contract layer.
 
-### *Benefits of this Approach：
+### Benefits of this Approach：
 
 **Leverage Advantages of Various Contracts**
 
