@@ -14,25 +14,27 @@ Integrated support for the Ethereum Virtual Machine (EVM) and part of the Inter-
 
 **Infrastructure**
 
-Uptick infrastructure provides a set of advanced modularized business protocols on top of Uptick Chain, which are developed by a team with extensive experience in the blockchain industry, and are designed to support a diverse range of NFT business-related functions and features, some of which include:
+Uptick infrastructure provides a set of advanced modularized business protocols on top of Uptick Chain, which are developed by a team with extensive experience in the blockchain industry, and are designed to support a diverse range of business-related NFT functions and features, some of which include:
 
-- Interoperable ERC & CW Asset Standards
+1. Interoperable ERC & CW Asset Standards
 
-- Interchain NFTs via IBC & EVM Networks
+1. Interchain NFTs via IBC & EVM Networks
 
-- DeFi Protocols for the NFT Economy
+1. DeFi Protocols for the NFT Economy
 
-- Interchain NFT Metadata Standard
+1. Interchain NFT Metadata Standard
 
-- Decentralized Data as a Service
+1. Decentralized Data as a Service
 
 Uptick Network is built on the Cosmos SDK and secured by the Tendermint consensus engine. It is classified as an application-oriented chain, and optimized to support specific applications and use cases within the broader blockchain ecosystem.
 
  Additionally, Uptick Network functions as an independent blockchain zone within the wider Cosmos ecosystem. It follows the general token utility and incentive model of Cosmos, but also adds its own innovative support for NFT-related infrastructure, ecosystem development, and extended DAO governance.
-
+ 
 _For more details about the technology and architecture of Uptick Network, please refer to [the](https://github.com/UptickNetwork/uptick-mainnet/blob/main/README.md) **Technical Whitepaper** 
 
+
 **Token Utility**
+
 Uptick Network's vision is to provide a fundamental framework for the creation and use of high-quality NFTs in the business world. This includes the necessary underlying blockchain technology, along with various other tools to support an array of different commercial environments.
 
 For Uptick Network's specific tokenomics model, please refer to the**[Token Economics]** section.
@@ -41,13 +43,13 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 
  UPTICK is the native platform token used on Uptick Chain, and its utility is divided into four main categories:
 
-- Fees
+1. Fees
 
-- Staking
+1. Staking
 
-- General Governance
+1. General Governance
 
-- Extended Rule-based Governance
+1. Extended Rule-based Governance
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.png">
 
@@ -64,12 +66,13 @@ Uptick calculates the EVM Fee and the Cosmos Fee through the feemarket module.
 | fee = (baseFee + priorityTip) \* gasLimit |
 | --- |
 
-where baseFee is the fixed-per-block network fee per gas and priorityTip is an additional fee per gas that can be set optionally. Note, that both the base fee and the priority tip are gas prices. To submit a transaction with EIP-1559, the signer needs to specify the gasFeeCap, which is the maximum fee per gas they are willing to pay in total. Optionally, the priorityTip can be specified, which covers both the priority fee and the block's network fee per gas (aka: base fee).
+Where baseFee is the fixed-per-block network fee per gas and priorityTip is an additional fee per gas that can be set optionally. Note, that both the base fee and the priority tip are gas prices. To submit a transaction with EIP-1559, the signer needs to specify the gasFeeCap, which is the maximum fee per gas they are willing to pay in total. Optionally, the priorityTip can be specified, which covers both the priority fee and the block's network fee per gas (aka: base fee).
 
-| The Cosmos SDK uses a different terminology for gas than Ethereum. What is called gasLimit on Ethereum is called gasWanted on Cosmos. You might encounter both terminologies on Uptick since it builds Ethereum on top of the SDK, e.g. when using different wallets like Keplr for Cosmos and Metamask for Ethereum. |
+| The Cosmos SDK uses a different terminology for gas than Ethereum. What is called gasLimit on Ethereum is called gasWanted on Cosmos. You might encounter both terminologies on Uptick since it builds Ethereum on top of the SDK, e.g. when using different wallets like Keplr for Cosmos and MetaMask for Ethereum. |
 | --- |
 
 **Parameter Settings**
+
 
 | Key                      | Type    | Initial Values | Description                                                  |
 | ------------------------ | ------- | -------------- | ------------------------------------------------------------ |
@@ -99,6 +102,7 @@ The UPTICK token is integrated into Uptick Network's consensus engine through a 
 
 **Parameter Settings**
 
+
 | **Key**             | **Type**        | **Initial Values**     |
 | ------------------- | --------------- | ---------------------- |
 | UnbondingTime       | string          | "1814400s"             |
@@ -115,19 +119,20 @@ The UPTICK token is integrated into Uptick Network's consensus engine through a 
 
 
 
+
 **Staking Rewards Allocation**
 
 The staking allocation primarily includes several aspects:
 
-- **Staking of regular users**
+1. **Staking of regular users**
 
 Users can choose to continue staking or unlock after the staking period expires (21 days) based on their preferences.
 
-- **Staking of non-profit orgs (e.g foundation and ecosystem development)**
+1. **Staking of non-profit orgs (e.g foundation and ecosystem development)**
 
 Based on the results of governance voting, these funds will enter the expanded incentive pool of [More Rule-based Governance], which will be used to encourage the Uptick DAPP ecosystem and multi-chain economy.
 
-- **Community pool allocation**
+1. **Community pool allocation**
 
 A portion of staking rewards (initially set at 2%) will enter the community pool. This pool will be used to incentivize projects that contribute to the Uptick ecosystem, as determined by community voting.
 
@@ -135,31 +140,32 @@ Additionally, some tokens may be burned to control inflation and the circulating
 
 **General Governance**
 
-The role of governance is to govern the Uptick ecosystem to ensure its sustainability and healthy development. Through the governance mechanism, community members can participate in the formulation and modification of protocols, as well as the voting of proposals on the network.
+The role of governance is to govern the Uptick Ecosystem to ensure its sustainability and healthy development. Through the governance mechanism, community members can participate in the formulation and modification of protocols, as well as the voting of proposals on the network.
 
  The role of governance includes, but is not limited to:
 
-- Maintaining the integrity and stability of the Uptick protocol.
+1. Maintaining the integrity and stability of the Uptick Protocol.
 
-- Defining and modifying protocol parameters and rules, such as inflation rates, transaction fees, and governance parameters.
+1. Defining and modifying protocol parameters and rules, such as inflation rates, transaction fees, and governance parameters.
 
-- Voting to distribute and utilize funds within the community, including those designated for development projects, charitable causes, and other community initiatives.
+1. Voting to distribute and utilize funds within the community, including those designated for development projects, charitable causes, and other community initiatives.
 
-- Voting to support or oppose proposals for upgrades or changes, such as software version updates or the introduction of new features.
+1. Voting to support or oppose proposals for upgrades or changes, such as software version updates or the introduction of new features.
 
-- Encouraging community members to actively participate in community governance, enhancing community consensus and participation, and promoting the development of the Uptick ecosystem.
+1. Encouraging community members to actively participate in community governance, enhancing community consensus and participation, and promoting the development of the Uptick Ecosystem.
 
 **Governance Function**
 
 Uptick's governance can be performed through community voting, including but not limited to:
 
-- Controlling the inflation rate of the native Uptick token by adjusting the settings in the [Parameter Settings] table.
+1. Controlling the inflation rate of the native Uptick token by adjusting the settings in the [Parameter Settings] table.
 
-- Burning a portion of the token through voting.
+1. Burning a portion of the token through voting.
 
-- Determining the amount of rewards and developing the reward regulations for [Extended Rule-based Governance] through voting.
+1. Determining the amount of rewards and developing the reward regulations for [Extended Rule-based Governance] through voting.
 
 **Parameter Settings**
+
 
 | **Key**            | **Type**        | **Initial Values**                                     |
 | ------------------ | --------------- | ------------------------------------------------------ |
@@ -172,25 +178,26 @@ Uptick's governance can be performed through community voting, including but not
 
 
 
+
 **Extended Rule-based Governance**
 
 Because Uptick Network has an EVM module in place, the UPTICK token exists on the network in a dual format:
 
-- Cosmos native token
+1. Cosmos Native Token
 
-- ERC-20 compatible token
+1. ERC-20 Compatible Token
 
 With EVM (and later CosmWasm and more virtual machine support), Uptick Chain supports smart contract-based token management methods. As a result, there will be many innovative ways to build DAO-like governance rules other than the default methods defined in the Cosmos SDK module.
 
 Uptick chain will gradually realize the community-based governance of the following on-chain crypto assets, not just the platform token:
 
-- Native platform token: UPTICK
+1. Native platform token: UPTICK
 
-- IBC transferred tokens
+1. IBC transferred tokens
 
-- ERC-20 compatible tokens issued by ecosystem applications
+1. ERC-20 compatible tokens issued by ecosystem applications
 
-- NFT assets with a fair market value
+1. NFT assets with a fair market value
 
 _Please note: The utility of the UPTICK token is subject to further refinement to ensure compliance with legal and regulatory obligations._
 
@@ -204,7 +211,7 @@ UPTICK tokens are designed for value storage, with effective control over market
 
 **Initial Token Distribution**
 
-The initial distribution is structured to incentivize long-term holders and the Uptick Network ecosystem.
+The initial distribution is structured to incentivize long-term holders and the Uptick Network Ecosystem.
 
 The distribution of UPTICK tokens is planned as follows:
 
@@ -212,13 +219,13 @@ The distribution of UPTICK tokens is planned as follows:
 
  Starting from Uptick Network's launch, there is a one-year vesting period in place, during which the UPTICK tokens are vested on a daily basis at a rate of 1/365. The full amount of tokens are held in vesting accounts, allowing the owner to stake them on the Uptick Network with unvested tokens.
 
-This measure is in place to improve security of the Uptick Network, while still allowing UPTICK owners to receive block rewards.
+This measure is in place to improve the security of the Uptick Network, while still allowing UPTICK owners to receive block rewards.
 
 **[Core Team**: 15%**]**
 
 Starting from Uptick Network's launch, there is a four-year vesting period in place, during which the team will vest 1/8th of its UPTICK tokens every six months. The full amount of tokens are secured in a vesting account with multisig, allowing the owner to stake on Uptick Network with unvested tokens.
 
-This measure is in place to improve security of the Uptick Network, while still allowing the team to receive block rewards.
+This measure is in place to improve the security of the Uptick Network, while still allowing the team to receive block rewards.
 
 **[Foundation**: 20%**]**
 
@@ -226,41 +233,41 @@ Reserved to support the operations of the foundation.
 
 **[Ecosystem Development**: 47.5%**]**
 
-- Value exchange with strategic interchain partners
+1. Value exchange with strategic interchain partners
 
-- Performance-based incentive for ecosystem application builders and end users (app dev and ops mining)
+1. Performance-based incentive for ecosystem application builders and end users (app dev and ops mining)
 
-- Awards for outstanding partners
+1. Awards for outstanding partners
 
-- Incentives for NFT pledge and loan
+1. Incentives for NFT pledge and loan
 
-- Interchain DeFi farming
+1. Interchain DeFi farming
 
-- Incentive and awards to Uptick DAO participants and activities
+1. Incentive and awards to Uptick DAO participants and activities
 
-- More
+1. More
 
 **[Airdrop**: 2.5%**]**
 
 The goal for this airdrop is to support the long-term success of Uptick Network and its core ecosystem partners and users. It includes but is not limited to the following categories:
 
-- Media and marketing contributors
+1. Media and marketing contributors
 
-- Testnet validator & governance contributors (inc Testnet 1.0 & Testnet 2.0)
+1. Testnet validator & governance contributors (inc Testnet 1.0 & Testnet 2.0)
 
-- Testnet marketplace contributors (inc Testnet 1.0 & Testnet 2.0)
+1. Testnet marketplace contributors (inc Testnet 1.0 & Testnet 2.0)
 
-- Uptick's IRISnet marketplace contributors
+1. Uptick's IRISnet marketplace contributors
 
-- Uptick's Loopring marketplace contributors
+1. Uptick's Loopring marketplace contributors
 
-- Cosmos Hub $ATOM token holders that meet certain requirement
+1. Cosmos Hub $ATOM token holders that meet certain requirement
 
-- IRISnet Hub $IRIS token holders that meet certain requirement
+1. IRISnet Hub $IRIS token holders that meet certain requirement
 
-- IRISnet Governance | Supporters of Uptick-related proposals
+1. IRISnet Governance | Supporters of Uptick-related proposals
 
-- Other platforms, applications and communities that support Uptick project
+1. Other platforms, applications and communities that support the Uptick project
 
 The distribution of the airdrop will occur in stages, rather than all at once on genesis launch day. Additionally, certain categories of the airdrop will follow a vesting schedule.
 
@@ -270,19 +277,19 @@ One of the sore points as to why blockchain projects have difficulty landing is 
 
 Uptick Network has designed multi-layered token economics based on the above-mentioned problems. These include:
 
-- **Basic Uptick Network Layer**
+1. **Basic Uptick Network Layer**
 
 Responsible for the issuance and circulation of the UPTICK token. The token economics at this layer is designed to ensure the stability and security of the UPTICK token.
 
-- **Uptick DAPP Ecosystem Layer**
+1. **Uptick DAPP Ecosystem Layer**
 
 This includes all the decentralized applications built on top of the Uptick Network. The token economics at this layer is designed to incentivize developers to build and contribute to the Uptick DAPP ecosystem.
 
-- **Multi-Chain Economy Layer**
+1. **Multi-Chain Economy Layer**
 
 Cross-chain collaborations and interactions between different blockchain networks. The token economics at this layer is designed to incentivize and facilitate cross-chain transactions and collaborations.
 
-- **Community Layer**
+1. **Community Layer**
 
 Uptick Network community members and stakeholders. The token economics at this layer are designed to incentivize community participation and contribution, and to ensure the sustainability and growth of the Uptick Network.
 
@@ -334,25 +341,25 @@ Uptick DAO Governance will cover different categories with different rules, such
 
 The following is an example of operational performance-based business application rewards governance. The flow describes how the infrastructure layer can effectively support the ecosystem application layer, and create a win-win result:
 
-- The staking reward by the foundation and ecosystem development funds will be donated to the EARP (Ecosystem Application Reward Pool).
+1. The staking reward by the foundation and ecosystem development funds will be donated to the EARP (Ecosystem Application Reward Pool).
 
-- Any validator can also donate a portion of commission/rewards to the EARP to support ecosystem applications.
+1. Any validator can also donate a portion of commission/rewards to the EARP to support ecosystem applications.
 
-- The distribution of EARP funds is based on performance measurement metrics, or say, a set of EARP rules.
+1. The distribution of EARP funds is based on performance measurement metrics, or say, a set of EARP rules.
 
 _Example:_
 
-- An application can participate in EARP's stake-to-reward method to attract its users. It encourages users to stake tokens on this application channel by receiving interest rewards and also member privileges in this application.
+1. An application can participate in EARP's stake-to-reward method to attract its users. It encourages users to stake tokens on this application channel by receiving interest rewards and also member privileges in this application.
 
-- The higher the TVL from this application, the more value this application can bring to the Uptick ecosystem.
+1. The higher the TVL from this application, the more value this application can bring to the Uptick ecosystem.
 
-- An application can participate in EARP's transaction-to-mine method to attract its users. The transactions generated by this application channel will be recorded and analyzed by the data analyzer on the infrastructure.
+1. An application can participate in EARP's transaction-to-mine method to attract its users. The transactions generated by this application channel will be recorded and analyzed by the data analyzer on the infrastructure.
 
-- An application can participate in EARP's NFT stake-to-earn method to attract its users. The valuation of the NFT should be fairly recognizable by the market.
+1. An application can participate in EARP's NFT stake-to-earn method to attract its users. The valuation of the NFT should be fairly recognizable by the market.
 
-- There will be more EARP rules added to this program. The purpose is to provide meaningful and sustainable funds for ecosystem applications that can be operated well in business. The application can pass such funds to its users.
+1. There will be more EARP rules added to this program. The purpose is to provide meaningful and sustainable funds for ecosystem applications that can be operated well in business. The application can pass such funds to its users.
 
-- Ultimately, the successful execution of EARP rules, such as stake to earn and transaction to earn, can generate more profits for stakers through transaction fees, truly achieving a win-win situation.
+1. Ultimately, the successful execution of EARP rules, such as stake to earn and transaction to earn, can generate more profits for stakers through transaction fees, truly achieving a win-win situation.
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/EappRules.png">
 
@@ -362,31 +369,31 @@ The multi-chain economic model is still in the exploratory stage and mainly incl
 
 **Interchain transactions and stakings**
 
-- Between Uptick Chain and IBC chains
+1. Between Uptick Chain and IBC chains
 
-- Between Uptick Chain and EVM chains
+1. Between Uptick Chain and EVM chains
 
 **Incentive for cross-chain infrastructure service providers**
 
-- Cross-chain relayer for IBC (Inter-Chain Communication)
+1. Cross-chain relayer for IBC (Inter-Chain Communication)
 
-- Cross-chain bridge for UCB (Uptick Cross-chain Bridge)
+1. Cross-chain bridge for UCB (Uptick Cross-chain Bridge)
 
-- Cross-chain data analysis tools based on the Uptick cross-chain protocol.
+1. Cross-chain data analysis tools based on the Uptick cross-chain protocol.
 
 **Inflation control**
 
 In a POS blockchain, inflation control is achieved through various mechanisms, such as adjusting the block reward and the supply of tokens. In the case of the Uptick Network, there are several ways to control inflation:
 
-- **Block reward adjustment**
+1. **Block reward adjustment**
 
 The block reward is the amount of tokens that validators receive for each block they validate. By adjusting the block reward, the inflation rate can be controlled. In Uptick Network, the block reward is determined by the total supply of tokens and the target annual inflation rate.
 
-- **Dynamic staking rewards**
+1. **Dynamic staking rewards**
 
 Uptick Network also supports dynamic staking rewards, which adjust the rewards based on the amount of tokens staked. This means that the more tokens that are staked, the lower the rewards, and vice versa. This mechanism is designed to encourage more token holders to stake their tokens and help secure the network.
 
-- **Community-driven governance**
+1. **Community-driven governance**
 
 Uptick Network is built on a community-driven governance model, where token holders can propose and vote on changes to the network, including changes to the inflation rate. Through community-driven governance, the inflation rate can be adjusted to reflect the needs and desires of the community.
 
@@ -398,27 +405,26 @@ The development roadmap for Uptick Network is ever-evolving with the development
 
 The following are the confirmed plans with clear goals:
 
-- Support for Wasm contracts
+1. Support for Wasm contracts
 
-- Importing of ORACLE into infrastructure
+1. Importing of ORACLE into infrastructure
 
-- Release of Uptick Web3 interface
+1. Release of Uptick Web3 interface
 
-- Implementation of developer plans
+1. Implementation of developer plans
 
-- Implementation of modularized business logic protocols
+1. Implementation of modularized business logic protocols
 
-- Release of more local and interchain NFT asset standards
+1. Release of more local and interchain NFT asset standards
 
-- Development of Uptick DAO Governance regulations
+1. Development of Uptick DAO Governance regulations
 
-- Establishment of the multi-chain economy model
+1. Establishment of the multi-chain economy model
 
-- more
+1. more
 
 **Conclusion**
 
 Uptick Network's tokenomic model includes multiple layers, such as general governance, Uptick DAO governance, and a multi-chain economy model. This combined model is more comprehensive and scalable than a simple chain-based model, with token economics at each layer ensuring chain-level security and supporting the healthy growth of business grade ecosystems.
 
 Furthermore, Uptick Network intends to introduce a long-term performance based dev-mining program aimed at gradually expanding infrastructure and supporting a diverse range of ecosystem applications.
-
