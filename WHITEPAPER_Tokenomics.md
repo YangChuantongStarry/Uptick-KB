@@ -51,7 +51,7 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 
 1. Extended Rule-based Governance
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.PNG" width="300px">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.PNG" width="450px">
 
 **Fees**
 
@@ -297,7 +297,7 @@ By designing multi-layered token economics, Uptick Network aims to create a comp
 
 _The following figure illustrates the structure of Uptick Network's multi-layered token economics:_
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/StructureofUptick.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/StructureofUptick.png"  width="650px">
 
 A multi-layered token economy offers several advantages:
 
