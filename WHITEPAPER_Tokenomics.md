@@ -335,7 +335,9 @@ The Uptick DAO is a set of rule-based smart contracts built using EVM contracts 
 
 This contract ensures both the powerful decentralized finance functions of EVM contracts and the decentralized management models of the Cosmos system.
 
+
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/validators.png" style="width: 90%;">
+
 
 Uptick DAO Governance will cover different categories with different rules, such as rights management, business grade application development and operation, decentralized data services, etc.
 
@@ -361,7 +363,9 @@ _Example:_
 
 1. Ultimately, the successful execution of EARP rules, such as stake to earn and transaction to earn, can generate more profits for stakers through transaction fees, truly achieving a win-win situation.
 
+
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/EappRules.png" style="width: 90%;">
+
 
 **Multi-Chain Economy Model**
 
