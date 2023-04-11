@@ -94,7 +94,7 @@ Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that 
 
 In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
-#### **Cosmos Ecosystem Features：**
+#### Cosmos Ecosystem Features：
 
 **Cross-chain Interoperability**
 
@@ -153,7 +153,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
  Therefore, Uptick provides support for mainstream EVM and WASM contracts and seamless conversion between the two types of assets at the contract layer.
 
-#### **Benefits of this Approach：**
+#### Benefits of this Approach：
 
 **Leverage Advantages of Various Contracts**
 
@@ -268,7 +268,7 @@ Uptick DID is a decentralized identity credential within the Uptick Network, cre
 
 Uptick Layer 2 is an off-chain scaling solution which is built on top of Uptick Layer 1. The primary purpose is to enhance the performance of Layer 1 blockchains by optimizing transaction speeds, reducing transaction costs, and increasing scalability. By building solutions on Layer 2, it is possible to achieve higher throughput, faster confirmation of transactions, and a much more flexible environment for application development.
 
-#### **Uptick Layer 2 Benefits：**
+#### Uptick Layer 2 Benefits：
 
 **Reduced Fees**
 
@@ -292,7 +292,7 @@ The Uptick Protocol is a modular business protocol created by the Uptick core te
 
 A programmable NFT protocol is an advanced NFT implementation that offers customization and programmability beyond the basic functionality of traditional NFTs. With a programmable NFT protocol, each NFT can possess unique properties, functionalities, or behaviours that can be defined and manipulated by its creators, owners, or other authorized parties.
 
-#### **Programmable NFT Protocol Features：**
+#### Programmable NFT Protocol Features：
 
 **Metadata Customization**
 
@@ -434,7 +434,7 @@ The omnichannel payment module on Uptick Network can provide the following benef
 
 The decentralized data analytic service is a data analysis service built on a decentralized infrastructure that leverages distributed technologies in order to provide secure, transparent, and trustless access to data analytics, which is key for the democratization of data in Web 3.0. This empowers users and businesses to maintain necessary control of their data while also benefiting from advanced data analytics.
 
-#### **Decentralized Data Analytic Service Key Features：**
+#### Decentralized Data Analytic Service Key Features：
 
 **Privacy and Security**
 
@@ -490,7 +490,7 @@ As a commercial-grade NFT infrastructure, Uptick Network provides a management s
 
 Decentralized CRM (Customer Relationship Management) on Uptick Network is a system that leverages the decentralized and transparent properties of distributed technology. Unlike traditional CRM systems, which rely on centralized databases and servers, decentralized CRM is built on a robust distributed network which enhances security, privacy, and data ownership.
 
-#### **Uptick Network Decentralized CRM | Key Features：**
+#### Uptick Network Decentralized CRM | Key Features：
 
 **Data Security**
 
@@ -520,7 +520,7 @@ Decentralized CRM on Uptick leverages blockchain technology to provide a secure,
 
 The Web 3.0 API is the external interface provided by various Uptick modules, which ensures that each function supports dApp developers through the underlying Web 3.0 API. Simple and intuitive interfaces are available, which enables Web 3.0 API developers to fully take advantage of blockchain technology, and offer users secure, transparent, and trustless decentralized solutions.
 
-#### **Web 3.0 API Main Features：**
+#### Web 3.0 API Main Features：
 
 **Abstraction**
 
@@ -574,7 +574,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  Virtual galleries in the metaverse can host NFT exhibitions, enabling artists and collectors to showcase and trade their NFTs in a fully immersive environment.
 
-####  **Functional/Utility：**
+####  Functional/Utility：
 
 **Decentralized Finance (DeFi)**
 
@@ -596,7 +596,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
   NFTs can represent fractional ownership of physical assets such as real estate, vehicles, or collectibles, providing new investment opportunities and markets.
 
-#### **Social：**
+#### Social：
 
 **Identity & Credentials**
 
