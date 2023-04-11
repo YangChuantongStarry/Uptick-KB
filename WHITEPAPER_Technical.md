@@ -552,7 +552,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  The following are some of the NFT use cases that Uptick Network can support (but are not limited to):
 
-### Collectible
+### Collectible：
 
 **Art**
 
