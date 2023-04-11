@@ -78,7 +78,7 @@ In the **framework layer** , supporting services for commercial NFT assets are p
 
 The **application layer** is an open ecosystem application system, including a general NFT trading platform created by the Uptick Network team and various applications based on years of industry experience. More importantly, it will consist of ecosystem applications created by global commercial application developers and operators. We believe that high-quality NFT infrastructure platforms and effective incentive mechanisms will attract a large number of high-quality commercial applications to be implemented on the Uptick Network.
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FourMainLayers.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FourMainLayers.png" style="width: 90%;">
 
 **Uptick Network Infrastructure | Key Components**
 
@@ -90,7 +90,7 @@ Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that 
 
 **3.1. Built on Cosmos-SDK**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png" style="width: 80%;">
 
 In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
