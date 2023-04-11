@@ -30,7 +30,7 @@ Uptick Network is built on the Cosmos-SDK and secured by the Tendermint consensu
 
  Additionally, Uptick Network functions as an independent blockchain zone within the wider Cosmos ecosystem. It follows the general token utility and incentive model of Cosmos, but also adds its own innovative support for NFT-related infrastructure, ecosystem development, and extended DAO governance.
  
-For more details about the technology and architecture of Uptick Network, please refer to the[**Technical Whitepaper** ](https://github.com/UptickNetwork/Uptick-KB/blob/main/WHITEPAPER_Technical.md) 
+For more details about the technology and architecture of Uptick Network, please refer to the [**Technical Whitepaper** ](https://github.com/UptickNetwork/Uptick-KB/blob/main/WHITEPAPER_Technical.md) 
 
 
 **Token Utility**
@@ -303,17 +303,21 @@ _The following figure illustrates the structure of Uptick Network's multi-layere
 A multi-layered token economy offers several advantages:
 
 **Integrity**
+
  The multi-layered architecture of the token economics takes into account various business scenarios and allocates the interests of all parties, including chains, cross-chains, and ecosystems.
 
 **Scalability**
+
  The Uptick DAO governance and multi-chain economy model are based on Turing-complete EVM contracts, which can theoretically implement any token economic logic.
 
 **Security**
+
  General Governance is based on the Cosmos-SDK, which has been verified by the Cosmos ecosystem to ensure the security of the token economic model.
 
 In addition, the security of the Uptick DAO governance and multi-chain economy model is ensured by the underlying EVM security mechanism. Unlike DeFi applications, the contract account of the Uptick Network economic model contract is a Cosmos module account, which prevents security risks caused by the leakage of private account keys.
 
 **Decentralization**
+
  The economic model rules and modifications are implemented through the Cosmos-SDK governance module, which requires confirmation by a majority of stakers. This decentralized approach ensures that decisions are not controlled by one single entity.
 
 **General Governance**
