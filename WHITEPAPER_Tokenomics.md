@@ -51,7 +51,7 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 
 1. Extended Rule-based Governance
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.PNG">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.png" width="300px">
 
 **Fees**
 
