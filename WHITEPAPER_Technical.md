@@ -36,7 +36,7 @@ Additionally, the network features the modular **Uptick Protocol** and service m
 
 The development and expansion of Uptick Network is driven by a combination of the core team's efforts and active collaborations with the global community and industry partners through community governance and DAO mechanisms.
 
-### **1. Overview**
+##  **1. Overview**
 
 With the continuous development and improvement of Web 3.0 technologies, including blockchain, traditional Web 2.0 applications are transitioning to Web 3.0. NFT technology, as a significant carrier of digital assets in the Web 3.0 domain, has become a major focus of attention. The industry expects breakthroughs and implementation of commercial applications, which are believed to be one of the triggers for the next market cycle. We firmly believe in this thesis and are committed to integrating various digital asset application scenarios and token economy models, represented by NFTs, into the public chain system effectively.
 
@@ -54,7 +54,7 @@ We strongly believe that any asset, whether native to the crypto world or mapped
 
 _This document not only describes the overall architecture and modular composition of Uptick Network but also provides foundational knowledge within certain modules. This approach allows readers to gain a comprehensive understanding of the single document._
 
-### **2. System Architecture**
+## **2. System Architecture**
 
 Uptick Network's technical architecture features a multi-layered, modular blockchain infrastructure with each layer having horizontal expansion capabilities and modular encapsulation.
 
@@ -82,19 +82,19 @@ The **ecosystem application layer** is an open ecosystem application system, inc
 
 **Uptick Network Infrastructure | Key Components**
 
-### **3. Uptick Chain**
+## **3. Uptick Chain**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickChain.png" style="width: 90%;">
 
 Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
 
-**3.1. Built on Cosmos-SDK**
+### **3.1. Built on Cosmos-SDK**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png" style="width: 80%;">
 
 In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
-**Cosmos Ecosystem Features**
+#### **Cosmos Ecosystem Features**
 
 **Cross-chain Interoperability**
 
@@ -112,12 +112,12 @@ In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom block
 
  The Cosmos-SDK utilizes the Tendermint consensus algorithm, which is a BFT-based consensus mechanism that ensures the security and stability of blockchain applications. Cosmos-SDK also provides a set of resilient security features, such as role-based access control and multi-signature, which protect user assets and data.
 
-**Open-source and Community-driven**
+ **Open-source and Community-driven**
 
  Cosmos is an open-source community-led project and its source code and documentation are available on GitHub. Developers and community members are able to actively participate in the development and maintenance of the project, while also promoting the growth and innovation of the wider Cosmos Ecosystem.
 
 
-**Why Uptick Network Chose Cosmos**
+ **Why Uptick Network Chose Cosmos**
 
 Uptick Network chose the Cosmos-SDK to build its Layer 1, creating an NFT-centric ecological application chain, primarily for the following reasons:
 
@@ -125,27 +125,27 @@ Uptick Network chose the Cosmos-SDK to build its Layer 1, creating an NFT-centri
 
 * Facilitates the cross-chain transfer of FT/NFT assets within the Cosmos Ecosystem or networks supporting the IBC standard through the Cosmos-provided IBC protocol.
 
-_The cross-chain transfer here includes:_
+ _The cross-chain transfer here includes:_
 
 * Interchain transfer protocol based on the ICS-20 standard for FTs, with multi-chain FT support within the Cosmos Ecosystem, cross-chain to the Uptick Chain, and the conversion of FT assets into EVM system ERC20 tokens. Through UCB and other basic modules, it can cross-chain to Ethereum, Binance Smart Chain, or Polygon EVM ecosystems.
 
-* Interchain account management protocol based on ICS-27; a cross-chain account management protocol that improves the cross-chain interaction experience, allowing users to maintain a single interface without perceiving cross-chain interactions.
+ * Interchain account management protocol based on ICS-27; a cross-chain account management protocol that improves the cross-chain interaction experience, allowing users to maintain a single interface without perceiving cross-chain interactions.
 
 * Interchain transfer protocol based on the ICS-721 standard for NFTs allows cross-chain NFT interoperability between IBC-connected blockchains (including homogenous and heterogeneous chains). Although the IBC-NFT cross-chain is still in its nascent infrastructure-building stage, the commercial scenarios are yet to be explored. Uptick Network will be among the first to build cross-chain NFT infrastructure, and one of the first commercial application public chains.
 
-* By using the Gov module in Cosmos-SDK and related supporting economic models, DAO functions can be implemented.
+ * By using the Gov module in Cosmos-SDK and related supporting economic models, DAO functions can be implemented.
 
 **SDK Enhancement**
 
 In addition to using the existing Cosmos-SDK, Uptick Network actively participates in the optimization and iteration of the SDK based on business needs and a deep understanding of the SDK, making its own contributions to the community. Combining the existing SDK, we are considering the following aspects:
 
-* Optimize the data storage module to reduce the disk space required for chain operation.
+ * Optimize the data storage module to reduce the disk space required for chain operation.
 
 * Develop an internal NFT transfer protocol and make it available as an open-source extension SDK for the Cosmos community (for specific NFT internal conversions, please refer to 1.3.1 Programmable NFT Protocol).
 
-* Expand the functionality of the SDK so that it can call external ecosystem services internally, such as Chainlink's VRF random number feature.
+ * Expand the functionality of the SDK so that it can call external ecosystem services internally, such as Chainlink's VRF random number feature.
 
-**3.2. Major Smart Contract Language Support**
+### **3.2. Major Smart Contract Language Support**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/MajorSmartContract.png" style="width: 80%;">
 
@@ -153,7 +153,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
  Therefore, Uptick provides support for mainstream EVM and WASM contracts and seamless conversion between the two types of assets at the contract layer.
 
-**Benefits of this Approach**
+#### **Benefits of this Approach**
 
 **Leverage Advantages of Various Contracts**
 
@@ -165,7 +165,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
 It should be noted that the underlying technology of blockchain contracts is constantly being updated. Therefore, we will continuously update Uptick's contract engine to be compatible with the latest contract development languages such as _MOVE_ in the future.
 
-### **4. Base Layer Modules**
+## **4. Base Layer Modules**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BaseLayerModules.png" style="width: 80%;">
 
@@ -173,7 +173,7 @@ Uptick Network has built a complete set of fundamental modules in the upper laye
 
 **Fundamental Modules**
 
-**4.1. Oracle**
+### **4.1. Oracle**
 
 Oracle is a decentralized network that connects blockchain to real-world data sets, providing essential infrastructure. Uptick Marketplace and other ecosystem applications can use Chainlink VRF to implement gamification scenarios driven by random numbers, such as decentralized lottery functions.
 
@@ -187,7 +187,7 @@ Provide accurate price reference feeds
 
 Serve as an abstraction layer for blockchain
 
-**Network Infrastructure Services**
+ **Network Infrastructure Services**
 
 Operate as a decentralized oracle network
 
@@ -201,7 +201,7 @@ Deliver enterprise-grade middleware for a highly integrated, interoperable, and 
 
 Through these features, Uptick aims to provide a more seamless and integrated blockchain experience for users, while ensuring the reliability and accuracy of data through the use of decentralized oracle networks.
 
-**4.2. Uptick Cross-chain Bridge (UCB)**
+### **4.2. Uptick Cross-chain Bridge (UCB)**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickCross-chainBridge.png" style="width: 90%;">
 
@@ -222,11 +222,11 @@ Unlike IBC, which mainly focuses on cross-chain operations within the Cosmos eco
 
 **UCB V3.0** upgrades the existing cross-chain bridge algorithm by implementing cross-chain bridge logic based on zero-knowledge proofs (ZKPs). The block header relay network consists of a relay node network that listens for state changes on bridged chains and retrieves block headers from full nodes within the blocks. The relay nodes' primary function is to generate a ZKP that verifies the correctness of a block header from one chain and forwards it to the update contract on another chain. The update contract performs validation and either accepts or rejects proofs from nodes in the relay network.
 
- A key innovation in this structure is the parallel use of zk-SNARKs, which have succinct verification/proof sizes and do not require a trusted setup. The circuit used for verifying N signatures essentially consists of N copies of the same subcircuit.
+  A key innovation in this structure is the parallel use of zk-SNARKs, which have succinct verification/proof sizes and do not require a trusted setup. The circuit used for verifying N signatures essentially consists of N copies of the same subcircuit.
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UCBThree-stage.png" style="width: 80%;">
 
-**4.3. Uptick Storage**
+### **4.3. Uptick Storage**
 
 Uptick Network's storage module supports IPFS storage, which is a commonly used distributed storage solution in the blockchain and NFT domains. This integration allows for decentralized file storage and access, improving security, persistence, and efficiency in blockchain applications. Uptick Network recommends IPFS as the best solution for this purpose.
 
@@ -234,7 +234,7 @@ To meet ecosystem application storage and performance requirements, the framewor
 
 Currently, Uptick Network has deployed its own IPFS nodes and is collaborating with industry storage service providers to offer stable, reliable, and secure decentralized storage services for its NFT ecosystem applications.
 
-**4.4. Uptick DID**
+### **4.4. Uptick DID**
 
 Decentralized Identifier (DID) is a new digital identification system that utilizes blockchain and Distributed Ledger Technology (DLT) to provide users with a means to control and manage their digital identities while ensuring security, privacy, and reliability.
 
@@ -248,7 +248,7 @@ In the blockchain ecosystem, DID performs several essential functions, including
 
  DIDs enable complete control over digital identity without the need to rely on centralized third-party services. Users can create, update, and also delete their digital identity data without the need for intermediaries to facilitate these actions.
 
-**Privacy Protection**
+ **Privacy Protection**
 
  DID supports selective disclosure, allowing users to freely choose what personal information to share with others, protecting their privacy. Additionally, DIDs distributed storage method reduces the risk of personal data leaks.
 
@@ -256,25 +256,25 @@ In the blockchain ecosystem, DID performs several essential functions, including
 
  DIDs design follows universal standards, facilitating cross-platform and cross-application interoperability. This means users can use their DID for multiple blockchains and distributed applications without creating separate identities for each application.
 
-**Verifiable Credentials**
+ **Verifiable Credentials**
 
  DID can be combined with verifiable credentials to help users prove their identity, qualifications, or a variety of other attributes. These verifiable credentials can be used in different scenarios to access services, sign contracts, and participate in new ways to vote online, among many other scenarios.
 
-The role of DID in the blockchain ecosystem is to provide users with a decentralized, secure, and guaranteed controllable digital identity solution which aims to protect their privacy and also enhance interoperability across platforms.
+ The role of DID in the blockchain ecosystem is to provide users with a decentralized, secure, and guaranteed controllable digital identity solution which aims to protect their privacy and also enhance interoperability across platforms.
 
 Uptick DID is a decentralized identity credential within the Uptick Network, created based on W3C standards. It addresses the issue of decentralized identity management for users and the ownership problem of NFT assets, especially in cross-chain situations where decentralized identity authentication is necessary to verify the ownership of NFT assets.
 
-**4.5. Uptick Layer 2**
+### **4.5. Uptick Layer 2**
 
 Uptick Layer 2 is an off-chain scaling solution which is built on top of Uptick Layer 1. The primary purpose is to enhance the performance of Layer 1 blockchains by optimizing transaction speeds, reducing transaction costs, and increasing scalability. By building solutions on Layer 2, it is possible to achieve higher throughput, faster confirmation of transactions, and a much more flexible environment for application development.
 
-**Uptick Layer 2 Benefits**
+#### **Uptick Layer 2 Benefits**
 
 **Reduced Fees**
 
  Layer 2 bundles multiple off-chain transactions into a single Layer 1 transaction, which helps decrease data load. Security and decentralization can also be maintained by settling transactions on the mainnet.
 
-**Increased Practicality**
+ **Increased Practicality**
 
  With the combined advantages of higher transactions per second and lower fees, Layer 2 can focus on improving the user experience and expanding the application scope.
 
@@ -282,23 +282,23 @@ As new technologies continue to emerge in the Web 3.0 domain, Uptick Network's c
 
 Uptick Network actively seeks collaboration with technical community teams, in addition to the core team's research and development, to continually enhance and expand Uptick Network's infrastructure.
 
-### **5. Uptick Protocol**
+## **5. Uptick Protocol**
 
 The Uptick Protocol is a modular business protocol created by the Uptick core team. Its primary objective is to support a range of NFT business scenarios. By offering a flexible and adaptable framework, the Uptick Protocol allows developers to create and implement diverse use cases for NFTs, promoting innovation and growth within the NFT ecosystem.
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickProtocol.png" style="width: 80%;">
+ <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickProtocol.png" style="width: 80%;">
 
-**5.1. Programmable NFT Protocol**
+### **5.1. Programmable NFT Protocol**
 
 A programmable NFT protocol is an advanced NFT implementation that offers customization and programmability beyond the basic functionality of traditional NFTs. With a programmable NFT protocol, each NFT can possess unique properties, functionalities, or behaviours that can be defined and manipulated by its creators, owners, or other authorized parties.
 
-**Programmable NFT Protocol Features**
+#### **Programmable NFT Protocol Features**
 
 **Metadata Customization**
 
  Creators can attach customizable metadata to NFTs, providing additional information or attributes that can be unique to each token. Metadata can be used to represent various properties such as rarity, origin, or special attributes.
 
-**Smart Contract Integration**
+ **Smart Contract Integration**
 
  Programmable NFTs can be integrated with smart contracts, allowing for the execution of predefined rules, conditions, or logic. This enables NFTs to be utilized in a variety of complex applications, some of which include gaming, DeFi, and more.
 
@@ -310,11 +310,11 @@ A programmable NFT protocol is an advanced NFT implementation that offers custom
 
  By design, programmable NFTs are able to have upgradable properties, which allow for new functions, improvements, or changes to the existing features. This ensures that NFTs are able to sufficiently evolve and adapt where necessary over time, and meet the ever-changing needs of users and the broader blockchain ecosystem.
 
-**Access Control**
+ **Access Control**
 
  Programmable NFT protocols can provide fine-grained access control mechanisms, defining who can interact with the NFTs and under what conditions. This can include permissions for creating, transferring, or modifying the NFTs. By leveraging a programmable NFT protocol in Uptick Protocol, developers and creators can build more dynamic, flexible, and powerful applications that harness the full potential of NFT technology.
 
-**5.2. Interchain NFT Protocol**
+### **5.2. Interchain NFT Protocol**
 
 Cross-chain transfers of NFTs across multiple chains are achieved through various cross-chain protocols or supplementary cross-chain protocols, enabling NFT assets to move from the source chain to the target chain. This process ensures that assets transferred across chains can be mutually recognized within the Uptick Chain.
 
@@ -328,11 +328,11 @@ Cross-chain transfers of NFTs across multiple chains are achieved through variou
 
  This component focuses on standardizing the metadata associated with various types of NFTs during cross-chain transfers, ensuring that the critical information about the NFTs is preserved and can be properly interpreted on the target chain.
 
-**Specifications for Mutual Recognition and Traceability of Cross-chain NFT Assets**
+ **Specifications for Mutual Recognition and Traceability of Cross-chain NFT Assets**
 
  This part of the protocol defines the rules for recognizing and tracing NFT assets that have been transferred across chains. It allows users and systems within the Uptick Chain to identify the provenance, history, and ownership of cross-chain NFTs, enhancing transparency and trust in the NFT ecosystem.
 
-**5.3. Interchain NFT Protocol**
+### **5.3. Interchain NFT Protocol**
 
 **NFT Interchain Protocol**
 
@@ -358,7 +358,7 @@ The infrastructure requirements for the Uptick Network vary depending on differe
 
  To cater to the needs of a diverse range of applications, the Uptick Network classifies NFT assets into the following categories:
 
-**Collectible**
+ **Collectible**
 
  These NFTs represent unique digital items or collectibles, such as artwork, trading cards, or virtual in-game items. Collectibles usually focus on uniqueness and scarcity.
 
@@ -366,13 +366,13 @@ The infrastructure requirements for the Uptick Network vary depending on differe
 
  Functional NFTs provide specific functions or utilities within a platform or application, such as membership and loyalty, coupons and vouchers, tickets, access to content, voting rights, or in-game assets that enhance gameplay.
 
-**Social**
+ **Social**
 
  Social NFTs are related to social interaction and engagement, such as badges or rewards for achievements and participation in online communities, events, or platforms.
 
  Uptick Network provides infrastructure protocol layer services with different characteristics according to various business scenarios to meet the needs of different applications.
 
-**5.5. DeFi Protocol**
+### **5.5. DeFi Protocol**
 
 NFTs are unique digital assets and require Decentralized Finance (DeFi) and other financial infrastructures to enhance liquidity and yield higher returns. To cater to DeFi applications, the Uptick Network has formulated the following guidelines:
 
@@ -388,27 +388,27 @@ NFTs are unique digital assets and require Decentralized Finance (DeFi) and othe
 
  In contrast to FT assets, NFT assets possess practical applications and can generate revenue via leasing.
 
-The current NFT protocols primarily focus on single-chain support, which is inadequate for handling cross-chain scenarios effectively. The ERC and CW protocols, for instance, do not consider cross-chain use cases.
+ The current NFT protocols primarily focus on single-chain support, which is inadequate for handling cross-chain scenarios effectively. The ERC and CW protocols, for instance, do not consider cross-chain use cases.
 
 Uptick Network's universal protocol builds upon the foundation of the ERC and CW protocols by incorporating additional infrastructure and application layer requirements, resulting in a comprehensive protocol designed for the application layer.
 
 As Web 3.0 continues to evolve, more universal protocols will be developed, optimized, and improved to meet growing demand.
 
-### **6. Framework and Services**
+## **6. Framework and Services**
 
 The Uptick framework is built on top of the Uptick Chain and its underlying modules, adhering to the Uptick Protocol development standards. This framework is presented to the community developers as a fundamental infrastructure. Furthermore, based on the requirements of various businesses, Uptick Network offers several service modules related to business within the fundamental framework, with the following specific features:
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FrameworkandServices.png" style="width: 90%;">
+ <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FrameworkandServices.png" style="width: 90%;">
 
 **6.1. Omnichannel Payment Module**
 
 The omnichannel payment module within the Uptick Network framework is a vital component that aims to integrate various cryptocurrency payment methods while complying with the regulatory requirements of different countries and regions.
 
-By connecting traditional fiat currency payment channels, this module offers users a unified and convenient payment solution for decentralized applications (dApps) on the Uptick Network, supporting multiple payment methods, including popular cryptocurrencies, stablecoins, and potential CBDCs.
+ By connecting traditional fiat currency payment channels, this module offers users a unified and convenient payment solution for decentralized applications (dApps) on the Uptick Network, supporting multiple payment methods, including popular cryptocurrencies, stablecoins, and potential CBDCs.
 
 The omnichannel payment module on Uptick Network can provide the following benefits for ecosystem applications:
 
-**Multiple Cryptocurrency Support**
+ **Multiple Cryptocurrency Support**
 
  Allows users to utilize various cryptocurrencies (such as BTC, ETH, USDT, etc.) for payment, increasing payment flexibility and convenience.
 
@@ -416,7 +416,7 @@ The omnichannel payment module on Uptick Network can provide the following benef
 
  Uptick Network can choose the best payment channel and lowest fees during the payment process, reducing payment costs for users.
 
-**Increased Payment Speed**
+ **Increased Payment Speed**
 
  Switch between different payment channels to ensure the fastest payment speed.
 
@@ -428,13 +428,13 @@ The omnichannel payment module on Uptick Network can provide the following benef
 
  Enables users to easily track and view payment records, enhancing payment transparency.
 
-In conclusion, the omnichannel payment module plays a pivotal role in the Uptick Network. It not only provides convenient payment methods, but it also reduces payment costs, improves payment speed and security, and offers an enhanced payment experience for dApps and end-users on the Uptick Network.
+ In conclusion, the omnichannel payment module plays a pivotal role in the Uptick Network. It not only provides convenient payment methods, but it also reduces payment costs, improves payment speed and security, and offers an enhanced payment experience for dApps and end-users on the Uptick Network.
 
-**6.2. Decentralized Data Analytics Service**
+### **6.2. Decentralized Data Analytics Service**
 
 The decentralized data analytic service is a data analysis service built on a decentralized infrastructure that leverages distributed technologies in order to provide secure, transparent, and trustless access to data analytics, which is key for the democratization of data in Web 3.0. This empowers users and businesses to maintain necessary control of their data while also benefiting from advanced data analytics.
 
-**Decentralized Data Analytic Service Key Features**
+#### **Decentralized Data Analytic Service Key Features**
 
 **Privacy and Security**
 
@@ -444,7 +444,7 @@ The decentralized data analytic service is a data analysis service built on a de
 
  Decentralized infrastructure creates a trustless environment for collaboration between different parties, allowing them to share and analyze data without the need to trust centralized authority.
 
-**Immutability and Transparency**
+ **Immutability and Transparency**
 
  Blockchain technology ensures data immutability and provides a transparent and tamper-proof record of all data transactions and analysis results. This increases trust and confidence in the data analytics process.
 
@@ -452,13 +452,13 @@ The decentralized data analytic service is a data analysis service built on a de
 
  This service can use tokens and smart contracts to create incentive mechanisms for users that enable them to share their data or participate in the data analysis process, creating a much more inclusive, collaborative and efficient ecosystem.
 
-**Scalability**
+ **Scalability**
 
  Decentralized infrastructure improves scalability by distributing data analysis workloads across a variety of different nodes. This reduces the need for centralized servers and minimizes potential bottlenecks.
 
 By democratizing access to data analytics, it has the opportunity to revolutionize a host of different industries, therefore creating a collaborative environment while guaranteeing security and data privacy. This is an essential module in the Uptick Network, and direct use cases include but are not limited to, on-chain transactions, cross-chain transactions, and NFT asset inventory data.
 
-**6.3. Loyalty and Rights Management**
+### **6.3. Loyalty and Rights Management**
 
 As a commercial-grade NFT infrastructure, Uptick Network provides a management service module for the ownership and patent of NFT assets, which manages the copyright of NFT assets through metadata or on-chain copyright information.
 
@@ -476,7 +476,7 @@ As a commercial-grade NFT infrastructure, Uptick Network provides a management s
 
  Utilize smart contracts to automatically execute copyright management operations on the chain, such as transferring copyrights and granting usage rights.
 
-**Provide Copyright Query Interface**
+ **Provide Copyright Query Interface**
 
  Offer users an interface to query the copyright information of NFT assets to verify ownership and usage rights.
 
@@ -484,23 +484,23 @@ As a commercial-grade NFT infrastructure, Uptick Network provides a management s
 
  In cross-chain scenarios, synchronize NFT asset copyright information across different blockchain networks to ensure consistency across various platforms.
 
-This module can provide application developers with a comprehensive NFT asset copyright management service that is highly customizable, therefore enhancing asset security and value. This service helps protect the interests of creators and copyright holders, while also increasing trust and transparency in the NFT market.
+ This module can provide application developers with a comprehensive NFT asset copyright management service that is highly customizable, therefore enhancing asset security and value. This service helps protect the interests of creators and copyright holders, while also increasing trust and transparency in the NFT market.
 
-**6.4. Decentralized CRM Service and Uptick Social DAO**
+### **6.4. Decentralized CRM Service and Uptick Social DAO**
 
 Decentralized CRM (Customer Relationship Management) on Uptick Network is a system that leverages the decentralized and transparent properties of distributed technology. Unlike traditional CRM systems, which rely on centralized databases and servers, decentralized CRM is built on a robust distributed network which enhances security, privacy, and data ownership.
 
-**Uptick Network Decentralized CRM | Key Features**
+#### **Uptick Network Decentralized CRM | Key Features**
 
 **Data Security**
 
  The decentralized, tamper-proof, and immutable properties of blockchain ensure that customer data is securely stored and managed, and there is a stark reduction in the risk of data breaches and unauthorized access to this data.
 
-**Data Ownership and Privacy**
+ **Data Ownership and Privacy**
 
  Decentralized CRM empowers users to own and take back control of their data. They are given the choice as to who can access it and under what specific conditions. This protects user privacy and prevents unauthorized access and the ever-so-frequent misuse of personal information.
 
-**Transparency and Trust**
+ **Transparency and Trust**
 
  As blockchain is transparent by nature, it allows all parties to view and verify if the stored data is authentic, which creates trust between customers and businesses. This can result in more accurate and reliable data that benefits everyone.
 
@@ -508,19 +508,19 @@ Decentralized CRM (Customer Relationship Management) on Uptick Network is a syst
 
  Decentralized CRM systems can interact effortlessly with other blockchain-based applications and platforms, which enables the seamless sharing of data and collaboration within a decentralized ecosystem.
 
-**Automation and Efficiency**
+ **Automation and Efficiency**
 
  Decentralized CRM systems can utilize smart contracts, which are self-executing contracts with terms directly written into and secured by code. This can enable the automation of different tasks, which reduces manual efforts and improves efficiency at scale.
 
 Decentralized CRM on Uptick leverages blockchain technology to provide a secure, transparent, and user-focused approach to customer relationship management. This is an innovative solution that can help businesses build much stronger relationships with their customers while guaranteeing data privacy and ownership.
 
-Uptick Social DAO is a unique platform-based application that manages Uptick governance within the decentralized community, and is based on the data structure of the decentralized CRM module.
+ Uptick Social DAO is a unique platform-based application that manages Uptick governance within the decentralized community, and is based on the data structure of the decentralized CRM module.
 
-**6.5. Web 3.0 API**
+### **6.5. Web 3.0 API**
 
 The Web 3.0 API is the external interface provided by various Uptick modules, which ensures that each function supports dApp developers through the underlying Web 3.0 API. Simple and intuitive interfaces are available, which enables Web 3.0 API developers to fully take advantage of blockchain technology, and offer users secure, transparent, and trustless decentralized solutions.
 
-**Web 3.0 API Main Features**
+#### **Web 3.0 API Main Features**
 
 **Abstraction**
 
@@ -530,7 +530,7 @@ Developers interact with blockchain through the Web 3.0 API, making it much more
 
 A universal interface designed for various decentralized applications enables developers to build and deploy on a variety of different blockchain platforms.
 
-**Ease of Use**
+ **Ease of Use**
 
 Offers easy-to-use tools and libraries, which enable developers to effortlessly implement, interact and integrate with blockchain.
 
@@ -538,19 +538,19 @@ Offers easy-to-use tools and libraries, which enable developers to effortlessly 
 
 Developers can ensure secure communication between applications and the blockchain network, which reduces any potential security risks.
 
-**Compatibility**
+ **Compatibility**
 
 Supports many different programming languages and platforms, which allows developers to seamlessly integrate blockchain features in a number of different environments.
 
 With the development of artificial intelligence technologies such as ChatGPT and AIGC, as well as decentralized social network protocols represented by Nostra, Uptick Network's framework layer will gradually introduce these new technologies, enabling support for more next-generation applications.
 
-### **7. Ecosystem Applications**
+## **7. Ecosystem Applications**
 
 Uptick Network recognizes the diverse potential of NFTs and their value beyond the marketplace. NFTs can provide meaningful use cases and value-added services within the ecosystem applications that utilize them.
 
 Uptick Network has built an open infrastructure that allows developers to collaborate and create NFT-based ecosystems. By leveraging the unique properties of NFTs, these ecosystems can usher in a wave of innovative value directly to users.
 
-The following are some of the NFT use cases that Uptick Network can support (but are not limited to):
+ The following are some of the NFT use cases that Uptick Network can support (but are not limited to):
 
 **Collectible**
 
@@ -558,7 +558,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  NFTs can represent ownership and provenance of digital and physical artworks, enabling artists to monetize their creations, and allowing collectors to trade and showcase their collections.
 
-**Photographs**
+ **Photographs**
 
  NFTs can authenticate digital photographs, provide photographers with new revenue streams, and offer collectors unique, limited-edition pieces.
 
@@ -566,7 +566,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  Musicians can tokenize their songs or albums as NFTs, allowing fans to own limited edition releases or exclusive content while directly supporting their favorite artists.
 
-**Video**
+ **Video**
 
  Filmmakers and video creators can issue NFTs for their work, providing a new way to distribute and monetize digital content.
 
@@ -574,7 +574,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  Virtual galleries in the metaverse can host NFT exhibitions, enabling artists and collectors to showcase and trade their NFTs in a fully immersive environment.
 
-**Functional/Utility**
+####  **Functional/Utility**
 
 **Decentralized Finance (DeFi)**
 
@@ -584,7 +584,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  NFTs can be used as unique digital goods in online stores, allowing for exclusive items or limited edition products.
 
-**Tickets**
+ **Tickets**
 
  Event tickets can be tokenized as NFTs, providing a secure and verifiable way to manage ticket sales and transfers.
 
@@ -594,15 +594,15 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
 **Tokenized Real-World Assets**
 
- NFTs can represent fractional ownership of physical assets such as real estate, vehicles, or collectibles, providing new investment opportunities and markets.
+  NFTs can represent fractional ownership of physical assets such as real estate, vehicles, or collectibles, providing new investment opportunities and markets.
 
-**Social**
+#### **Social**
 
 **Identity & Credentials**
 
  NFTs can serve as verifiable digital identities and credentials, enabling decentralized identity management and access control.
 
-**Loyalty Programs**
+ **Loyalty Programs**
 
  Businesses can issue NFTs as rewards or loyalty points, enabling unique and personalized customer engagement strategies.
 
@@ -610,7 +610,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  NFTs can be used for fundraising and awareness campaigns, allowing supporters to own a unique digital asset that represents their contribution.
 
-**Health**
+ **Health**
 
  Medical records, prescriptions, and other health-related data can be represented as NFTs, enabling secure and verifiable management of health information.
 
@@ -618,7 +618,7 @@ The following are some of the NFT use cases that Uptick Network can support (but
 
  Celebrities and influencers can issue NFTs to engage with their fans, offering exclusive content, experiences, or merchandise.
 
-### **8. Direction and Roadmap**
+## **8. Direction and Roadmap**
 
 The Uptick Network development strategy encompasses several key aspects:
 
@@ -626,19 +626,19 @@ The Uptick Network development strategy encompasses several key aspects:
 
  Fully capitalizing on the advancements of Cosmos technology, we aim to foster the refinement and commercialization of these technologies, particularly as IBC and NFT-IBC enter their final testing stages. We anticipate that they will have a significant impact on the Uptick ecosystem. As Interchain Accounts (ICA) and Interchain Security (ICS) mature, their integration into the Uptick Chain will further propel the growth and depth of Uptick Network's NFT application ecosystem.
 
-**Advancements in Blockchain Technology Integration and Interoperability**
+ **Advancements in Blockchain Technology Integration and Interoperability**
 
 Uptick Network is dedicated to tracking and integrating the latest blockchain industry technologies in order to further advance the development of diverse ecological applications on the chain, and the asset interoperability between the chain and various heterogeneous chains. The integration of the EVM module currently supports Ethereum-compatible NFT assets and GoLang-based smart contracts. The forthcoming CosmWasm module integration will support Rust-based smart contracts, providing enhanced performance and more complex business logic.
 
-**NFT-based Protocol and Framework Refinement for Diverse Business Scenarios**
+ **NFT-based Protocol and Framework Refinement for Diverse Business Scenarios**
 
 Uptick Network continuously refines and broadens its protocol and framework layer service modules based on NFT technology and digital asset application requirements, supporting all types of NFT-related business scenarios and use cases. Decentralized data service modules are especially crucial, as they assist ecological applications in efficiently accessing authorized data traffic and foster a win-win relationship between data rights holders and service providers.
 
-**Integrating Web 3.0 Technologies for AI and Social Protocols**
+ **Integrating Web 3.0 Technologies for AI and Social Protocols**
 
 Incorporating other outstanding technologies from the next-generation Web 3.0 into Uptick Network's infrastructure and services, we offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
 
-**Roadmap**
+ **Roadmap**
 
 The following is a clear roadmap that aligns with this development vision. These stages will have some overlap and interconnection, with the aim of providing timely and efficient resources to ecosystem application partners:
 
@@ -646,7 +646,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 * Launch Uptick Chain
 
-* Release Web 3.0 API
+ * Release Web 3.0 API
 
 * Deploy NFT infrastructure and the official flagship application, Uptick Chain NFT Marketplace
 
@@ -656,7 +656,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 **Stage 2**  **| Infrastructure Improvement and Industry Resource Integration**
 
-* Complete the integration of oracle (technology provider to be determined), deploy it to mainnet, and update the Web 3.0 API
+ * Complete the integration of oracle (technology provider to be determined), deploy it to mainnet, and update the Web 3.0 API
 
 * Complete the integration of the Wasm module, deploy it to mainnet, and update the Web 3.0 API
 
@@ -664,7 +664,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 * Complete the testing and verification of the NFT cross-chain module through Game of NFTs (GoN)
 
-* Based on the module verification results, upgrade the mainnet and update the Web 3.0 API
+ * Based on the module verification results, upgrade the mainnet and update the Web 3.0 API
 
 * Promote the development of cross-chain ecosystem applications using IBC and UCB
 
@@ -676,7 +676,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 *  Enrich and improve the framework layer, as well as support development tools and services
 
-### **9. Conclusion**
+## **9. Conclusion**
 
 The main components of the Uptick Network infrastructure can be summarized as follows:
 
@@ -684,7 +684,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
  A core component of the base layer, built on the Cosmos-SDK, provides default IBC cross-chain capabilities for seamless asset transfer and interoperability between homogeneous chains within the Cosmos ecosystem.
 
-**Cross-chain Bridge (UCB)**
+ **Cross-chain Bridge (UCB)**
 
  A technology developed by the Uptick Network to enable the free transfer and interoperability of NFT assets between homogeneous and heterogeneous chains, expanding the reach and connectivity of the Uptick Network.
 
@@ -692,7 +692,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
  A key part of the underlying infrastructure layer, allowing for secure and reliable data exchange between on-chain and off-chain environments, enabling smart contract execution based on real-world data.
 
-**IPFS Integration**
+ **IPFS Integration**
 
  A distributed storage system integrated within the Uptick Network enables efficient and decentralized storage of data, particularly useful for storing large files and metadata associated with NFT assets.
 
@@ -700,7 +700,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
  By utilizing DIDs, users can manage unique and verifiable digital identities within the Uptick Network ecosystem. This enables secure and privacy-centric interactions between the users, assets, and services available on the network.
 
-**Uptick Protocol**
+ **Uptick Protocol**
 
  A modular and extensible protocol layer that encapsulates metadata standards, NFT operations, commercial logic, and decentralized governance for various digital assets using NFTs as carriers.
 
@@ -708,14 +708,14 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
  A set of modules and services designed to support the development of commercial NFT applications, including multi-chain data analytics, omnichannel payment, copyright and royalty management, digital asset wallet management, digital asset transaction management, decentralized data services, and decentralized governance services.
 
-**Ecosystem Application Layer**
+ **Ecosystem Application Layer**
 
  An open ecosystem for the creation and deployment of commercial-grade NFT applications (dApps) by global developers and operators, including a general NFT trading platform and various applications built upon the Uptick Network infrastructure.
 
 These components work together to form the foundation of the Uptick Network, creating a robust and scalable infrastructure for the development and growth of the NFT ecosystem.
 
-Building a successful and thriving Web 3.0 infrastructure and application ecosystem is a marathon, not a sprint, and in the Web 3.0 world, high-quality and sustainable projects cannot be solely built by a core team. We welcome friends from the global community and industry to join us in building a solid infrastructure and a rich application ecosystem for Web 3.0 through community governance and DAO collaboration.
+ Building a successful and thriving Web 3.0 infrastructure and application ecosystem is a marathon, not a sprint, and in the Web 3.0 world, high-quality and sustainable projects cannot be solely built by a core team. We welcome friends from the global community and industry to join us in building a solid infrastructure and a rich application ecosystem for Web 3.0 through community governance and DAO collaboration.
 
- By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web 3.0 landscape.
+  By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web 3.0 landscape.
 
 **References**
