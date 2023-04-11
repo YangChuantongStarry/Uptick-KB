@@ -7,21 +7,27 @@ Uptick Network is a comprehensive, business-grade digital asset infrastructure a
 **Uptick Network Key Components**
 
 **Inter-Blockchain Communication (IBC)**
+
  For seamless interoperability between different blockchains
 
 **Uptick Chain Bridge (UCB)**
+
  Cross-chain bridge for smooth asset transfer between different blockchains
 
 **Interplanetary File System (IPFS)**
+
  A secure distributed storage solution for metadata
 
 **Decentralized Identity (DID)**
+
  Decentralized identity management system
 
 **Oracle**
+
  Decentralized oracle network connecting blockchain to real-world data
 
 **Layer 2 Solutions**
+
  For enhanced scalability and reduced transaction costs
 
 Uptick Network also integrates an **EVM (Ethereum Virtual Machine)** module and **WASM (WebAssembly)** support, enabling compatibility with a wide variety of smart contracts and dApps.
