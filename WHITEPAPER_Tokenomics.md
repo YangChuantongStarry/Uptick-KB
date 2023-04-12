@@ -1,4 +1,4 @@
-# **Uptick Network Tokenomics**
+# **Uptick Network Tokenomics Whitepaper**
 
 **Introduction**
 
