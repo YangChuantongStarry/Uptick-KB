@@ -68,13 +68,13 @@ Uptick Network's technical architecture features a multi-layered, modular blockc
 
 *  **Ecosystem Application Layer**
 
-In the **base layer** , there is the native Uptick Chain based on the Cosmos SDK, which by default has IBC cross-chain capability, solving the cross-chain protocol capability between homogeneous chains within Cosmos technology. Additionally, Uptick Network has developed a cross-chain bridge (UCB) between heterogeneous chains, enabling the free transfer and interoperability of NFT assets between homogeneous and heterogeneous chains.
+In the **base layer**, there is the native Uptick Chain based on the Cosmos SDK, which by default has IBC cross-chain capability, solving the cross-chain protocol capability between homogeneous chains within Cosmos technology. Additionally, Uptick Network has developed a cross-chain bridge (UCB) between heterogeneous chains, enabling the free transfer and interoperability of NFT assets between homogeneous and heterogeneous chains.
 
 Uptick Network integrates basic components such as oracles, IPFS, and DID, forming a robust underlying infrastructure layer.
 
-Based on these components, the Uptick Protocolis abstracted according to the business model, forming the **protocol layer**. In this layer, metadata standards for various digital assets using NFTs as carriers are encapsulated, as well as decentralized protocols for NFT operations on the local chain and cross-chain, commercial logic, economics, and governance. Additionally, Layer 2 solutions for further expansion are also prepared. The protocol layer is modularly encapsulated, providing open extensibility.
+Based on these components, the Uptick Protocol is abstracted according to the business model, forming the **protocol layer**. In this layer, metadata standards for various digital assets using NFTs as carriers are encapsulated, as well as decentralized protocols for NFT operations on the local chain and cross-chain, commercial logic, economics, and governance. Additionally, Layer 2 solutions for further expansion are also prepared. The protocol layer is modularly encapsulated, providing open extensibility.
 
-In the **framework layer** , supporting services for commercial NFT assets are provided, and modules such as multi-chain data analytics, omnichannel payment, copyright and royalty management, digital asset wallet management, digital asset transaction management, decentralized data services, and decentralized governance services are built based on standard protocols. This allows developers to quickly and conveniently develop decentralized commercial-grade NFT applications (dApps) through the framework layer and Web 3.0 API.
+In the **framework layer**, supporting services for commercial NFT assets are provided, and modules such as multi-chain data analytics, omnichannel payment, copyright and royalty management, digital asset wallet management, digital asset transaction management, decentralized data services, and decentralized governance services are built based on standard protocols. This allows developers to quickly and conveniently develop decentralized commercial-grade NFT applications (dApps) through the framework layer and Web 3.0 API.
 
 The **ecosystem application layer** is an open ecosystem application system, including a general NFT trading platform created by the Uptick Network team and various applications based on years of industry experience. More importantly, it will consist of ecosystem applications created by global commercial application developers and operators. We believe that high-quality NFT infrastructure platforms and effective incentive mechanisms will attract a large number of high-quality commercial applications to be implemented on the Uptick Network.
 
@@ -86,13 +86,13 @@ The **ecosystem application layer** is an open ecosystem application system, inc
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickChain.png" style="width: 90%;">
 
-Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
+Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos Ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
 
 ### **3.1. Built on Cosmos-SDK**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png" style="width: 80%;">
 
-In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
+In the Cosmos Ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
 ### Cosmos Ecosystem Features：
 
@@ -106,7 +106,7 @@ In the Cosmos ecosystem, developers can use the Cosmos-SDK to build custom block
 
 **Scalability**
 
- The Cosmos ecosystem adopts layered architecture, achieving high scalability. Different blockchains can operate independently within the Cosmos Ecosystem without interference, reducing congestion issues and improving overall network performance.
+ The Cosmos Ecosystem adopts layered architecture, achieving high scalability. Different blockchains can operate independently within the Cosmos Ecosystem without interference, reducing congestion issues and improving overall network performance.
 
 **High Security**
 
@@ -211,7 +211,7 @@ To address this issue, Uptick Network has developed the Uptick Cross-chain Bridg
 
 UCB has already implemented NFT cross-chain functionality for major chains, such as Polygon, Ethereum, and Binance Smart Chain, and will continue to establish asset interoperability with more blockchain systems.
 
-Unlike IBC, which mainly focuses on cross-chain operations within the Cosmos ecosystem, UCB targets cross-chain asset transfers and tracking for ecosystems outside of Cosmos.
+Unlike IBC, which mainly focuses on cross-chain operations within the Cosmos Ecosystem, UCB targets cross-chain asset transfers and tracking for ecosystems outside of Cosmos.
 
 **UCB Three-stage Iterative Evolution Plan**
 
@@ -346,7 +346,7 @@ Cross-chain transfers of NFTs across multiple chains are achieved through variou
 
 **Cosmos Native NFT \<=\> CW-721 Assets**
 
- This conversion supports the interchange between Cosmos native NFTs and CW-721 assets, which are NFTs on the CosmWasm platform. This conversion expands the range of NFTs available to users within the Cosmos ecosystem.
+ This conversion supports the interchange between Cosmos native NFTs and CW-721 assets, which are NFTs on the CosmWasm platform. This conversion expands the range of NFTs available to users within the Cosmos Ecosystem.
 
 **ERC-721 Assets \<=\> CW-721 Assets**
 
@@ -544,7 +544,7 @@ Supports many different programming languages and platforms, which allows develo
 
 With the development of artificial intelligence technologies such as ChatGPT and AIGC, as well as decentralized social network protocols represented by Nostra, Uptick Network's framework layer will gradually introduce these new technologies, enabling support for more next-generation applications.
 
-## **7. Ecosystem Applications**
+## **7. Tokenized Real-world Assets**
 
 Uptick Network recognizes the diverse potential of NFTs and their value beyond the marketplace. NFTs can provide meaningful use cases and value-added services within the ecosystem applications that utilize them.
 
@@ -586,7 +586,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  **Tickets**
 
- Event tickets can be tokenized as NFTs, providing a secure and verifiable way to manage ticket sales and transfers.
+ Event tickets can be tokenized Uptick Ecosystem as NFTs, providing a secure and verifiable way to manage ticket sales and transfers.
 
 **Gaming**
 
@@ -620,11 +620,11 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
 ## **8. Direction and Roadmap**
 
-The Uptick Network development strategy encompasses several key aspects:
+By incorporating other groundbreaking technologies from the next-generation Web 3.0 landscape into Uptick Network's infrastructure and services, we can offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
 
 **Strategy for Advancing Cosmos Technology and NFT Applications**
 
- Fully capitalizing on the advancements of Cosmos technology, we aim to foster the refinement and commercialization of these technologies, particularly as IBC and NFT-IBC enter their final testing stages. We anticipate that they will have a significant impact on the Uptick ecosystem. As Interchain Accounts (ICA) and Interchain Security (ICS) mature, their integration into the Uptick Chain will further propel the growth and depth of Uptick Network's NFT application ecosystem.
+ Fully capitalizing on the advancements of Cosmos technology, we aim to foster the refinement and commercialization of these technologies, particularly as IBC and NFT-IBC enter their final testing stages. We anticipate that they will have a significant impact on the Uptick Ecosystem. As Interchain Accounts (ICA) and Interchain Security (ICS) mature, their integration into the Uptick Chain will further propel the growth and depth of Uptick Network's NFT application ecosystem.
 
  **Advancements in Blockchain Technology Integration and Interoperability**
 
@@ -646,7 +646,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 * Launch Uptick Chain
 
- * Release Web 3.0 API
+* Release Web 3.0 API
 
 * Deploy NFT infrastructure and the official flagship application, Uptick Chain NFT Marketplace
 
@@ -682,7 +682,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
 **Uptick Chain**
 
- A core component of the base layer, built on the Cosmos-SDK, provides default IBC cross-chain capabilities for seamless asset transfer and interoperability between homogeneous chains within the Cosmos ecosystem.
+ A core component of the base layer, built on the Cosmos-SDK, provides default IBC cross-chain capabilities for seamless asset transfer and interoperability between homogeneous chains within the Cosmos Ecosystem.
 
  **Cross-chain Bridge (UCB)**
 
