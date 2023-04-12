@@ -28,7 +28,7 @@ Uptick infrastructure provides a set of advanced modularized business protocols 
 
 Uptick Network is built on the Cosmos-SDK and secured by the Tendermint consensus engine. It is classified as an application-oriented chain, and optimized to support specific applications and use cases within the broader blockchain ecosystem.
 
- Additionally, Uptick Network functions as an independent blockchain zone within the wider Cosmos ecosystem. It follows the general token utility and incentive model of Cosmos, but also adds its own innovative support for NFT-related infrastructure, ecosystem development, and extended DAO governance.
+ Additionally, Uptick Network functions as an independent blockchain zone within the wider Cosmos Ecosystem. It follows the general token utility and incentive model of Cosmos, but also adds its own innovative support for NFT-related infrastructure, ecosystem development, and extended DAO governance.
  
 For more details about the technology and architecture of Uptick Network, please refer to the [**Technical Whitepaper** ](https://github.com/UptickNetwork/Uptick-KB/blob/main/WHITEPAPER_Technical.md) 
 
@@ -52,7 +52,7 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 
 * Extended Rule-based Governance
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.PNG" width="450px">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/RuleBased.jpg" width="450px">
 
 **Fees**
 
@@ -125,15 +125,15 @@ The UPTICK token is integrated into Uptick Network's consensus engine through a 
 
 Staking for non-profit organizations, such as the foundation and ecosystem development.
 
-* **Staking of regular users**
+ **Staking of regular users**
 
 Users can choose to continue staking or unlock after the staking period expires (21 days) based on their preferences.
 
-* **Staking of non-profit orgs (e.g foundation and ecosystem development)**
+ **Staking of non-profit orgs (e.g foundation and ecosystem development)**
 
-Based on the results of governance voting, these funds will enter the expanded incentive pool of [More Rule-based Governance], which will be used to encourage the Uptick DAPP ecosystem and multi-chain economy.
+Based on the results of governance voting, these funds will enter the expanded incentive pool of [More Rule-based Governance], which will be used to encourage the Uptick dApp ecosystem and multi-chain economy.
 
-* **Community pool allocation**
+ **Community pool allocation**
 
 A portion of staking rewards (initially set at 2%) will enter the community pool. This pool will be used to incentivize projects that contribute to the Uptick ecosystem, as determined by community voting.
 
@@ -282,9 +282,9 @@ Uptick Network has designed multi-layered token economics based on the above-men
 
 Responsible for the issuance and circulation of the UPTICK token. The token economics at this layer is designed to ensure the stability and security of the UPTICK token.
 
-* **Uptick DAPP Ecosystem Layer**
+* **Uptick dApp Ecosystem Layer**
 
-This includes all the decentralized applications built on top of the Uptick Network. The token economics at this layer is designed to incentivize developers to build and contribute to the Uptick DAPP ecosystem.
+This includes all the decentralized applications built on top of the Uptick Network. The token economics at this layer is designed to incentivize developers to build and contribute to the Uptick dApp ecosystem.
 
 * **Multi-Chain Economy Layer**
 
@@ -298,7 +298,7 @@ By designing multi-layered token economics, Uptick Network aims to create a comp
 
 _The following figure illustrates the structure of Uptick Network's multi-layered token economics:_
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/StructureofUptick.png"  width="650px" style=" margin-top:30px;margin-bottom:30px;">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/StructureofUptick.jpg"  width="650px" style=" margin-top:30px;margin-bottom:30px;">
 
 A multi-layered token economy offers several advantages:
 
@@ -312,7 +312,7 @@ A multi-layered token economy offers several advantages:
 
 **Security**
 
- General Governance is based on the Cosmos-SDK, which has been verified by the Cosmos ecosystem to ensure the security of the token economic model.
+ General Governance is based on the Cosmos-SDK, which has been verified by the Cosmos Ecosystem to ensure the security of the token economic model.
 
 In addition, the security of the Uptick DAO governance and multi-chain economy model is ensured by the underlying EVM security mechanism. Unlike DeFi applications, the contract account of the Uptick Network economic model contract is a Cosmos module account, which prevents security risks caused by the leakage of private account keys.
 
@@ -322,7 +322,7 @@ In addition, the security of the Uptick DAO governance and multi-chain economy m
 
 **General Governance**
 
-Although there is no clear definition of L0 and L1 in the Cosmos ecosystem, the Cosmos-SDK can be considered the equivalent of L0. The Cosmos-SDK is a framework that enables the construction of hubs and zones in the Cosmos ecosystem.
+Although there is no clear definition of L0 and L1 in the Cosmos Ecosystem, the Cosmos-SDK can be considered the equivalent of L0. The Cosmos-SDK is a framework that enables the construction of hubs and zones in the Cosmos Ecosystem.
 
 It has been proven to be both secure and effective in achieving decentralized governance. Therefore, Uptick Network has chosen to use the Cosmos-SDK to ensure the security, effectiveness, and decentralized governance of its token economics.
 
@@ -341,7 +341,7 @@ The Uptick DAO is a set of rule-based smart contracts built using EVM contracts 
 This contract ensures both the powerful decentralized finance functions of EVM contracts and the decentralized management models of the Cosmos system.
 
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/validators.png" style="width: 90%; margin-top:30px;margin-bottom:30px;">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/Validators.jpg" style="width: 90%; margin-top:30px;margin-bottom:30px;">
 
 
 Uptick DAO Governance will cover different categories with different rules, such as rights management, business grade application development and operation, decentralized data services, etc.
@@ -369,7 +369,7 @@ _Example:_
 * Ultimately, the successful execution of EARP rules, such as stake to earn and transaction to earn, can generate more profits for stakers through transaction fees, truly achieving a win-win situation.
 
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/EappRules.png" style="width: 90%; margin-top:30px;margin-bottom:30px;">
+<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/EappRules.jpg" style="width: 90%; margin-top:30px;margin-bottom:30px;">
 
 
 **Multi-Chain Economy Model**
