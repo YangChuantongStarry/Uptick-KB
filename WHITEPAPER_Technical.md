@@ -1,4 +1,4 @@
-# **Uptick Network Technical Whitepaper-V0.6**
+# **Uptick Network Technical Whitepaper**
 
 **Abstract**
 
@@ -718,4 +718,3 @@ These components work together to form the foundation of the Uptick Network, cre
 
   By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web 3.0 landscape.
 
-**References**
