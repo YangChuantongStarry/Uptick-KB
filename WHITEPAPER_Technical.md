@@ -68,7 +68,7 @@ Uptick Network's technical architecture features a multi-layered, modular blockc
 
 *  **Ecosystem Application Layer**
 
-In the **base layer**, there is the native Uptick Chain based on the Cosmos SDK, which by default has IBC cross-chain capability, solving the cross-chain protocol capability between homogeneous chains within Cosmos technology. Additionally, Uptick Network has developed a cross-chain bridge (UCB) between heterogeneous chains, enabling the free transfer and interoperability of NFT assets between homogeneous and heterogeneous chains.
+In the **base layer**, there is the native Uptick Chain based on the Cosmos-SDK, which by default has IBC cross-chain capability, solving the cross-chain protocol capability between homogeneous chains within Cosmos technology. Additionally, Uptick Network has developed a cross-chain bridge (UCB) between heterogeneous chains, enabling the free transfer and interoperability of NFT assets between homogeneous and heterogeneous chains.
 
 Uptick Network integrates basic components such as oracles, IPFS, and DID, forming a robust underlying infrastructure layer.
 
@@ -141,7 +141,7 @@ In addition to using the existing Cosmos-SDK, Uptick Network actively participat
 
  * Optimize the data storage module to reduce the disk space required for chain operation.
 
-* Develop an internal NFT transfer protocol and make it available as an open-source extension SDK for the Cosmos community (for specific NFT internal conversions, please refer to 1.3.1 Programmable NFT Protocol).
+* Develop an internal NFT transfer protocol and make it available as an open-source extension SDK for the Cosmos community (for specific NFT internal conversions, please refer to 5.3 Programmable NFT Protocol).
 
  * Expand the functionality of the SDK so that it can call external ecosystem services internally, such as Chainlink's VRF random number feature.
 
@@ -698,7 +698,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
 **Decentralized Identifier (DID)**
 
- By utilizing DIDs, users can manage unique and verifiable digital identities within the Uptick Network ecosystem. This enables secure and privacy-centric interactions between the users, assets, and services available on the network.
+ By utilizing DIDs, users can manage unique and verifiable digital identities within the Uptick Network Ecosystem. This enables secure and privacy-centric interactions between the users, assets, and services available on the network.
 
  **Uptick Protocol**
 
