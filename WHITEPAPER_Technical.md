@@ -38,15 +38,15 @@ The development and expansion of Uptick Network is driven by a combination of th
 
 ##  **1. Overview**
 
-With the continuous development and improvement of Web 3.0 technologies, including blockchain, traditional Web 2.0 applications are transitioning to Web 3.0. NFT technology, as a significant carrier of digital assets in the Web 3.0 domain, has become a major focus of attention. The industry expects breakthroughs and implementation of commercial applications, which are believed to be one of the triggers for the next market cycle. We firmly believe in this thesis and are committed to integrating various digital asset application scenarios and token economy models, represented by NFTs, into the public chain system effectively.
+With the continuous development and improvement of Web3 technologies, including blockchain, traditional Web2 applications are transitioning to Web3. NFT technology, as a significant carrier of digital assets in the Web3 domain, has become a major focus of attention. The industry expects breakthroughs and implementation of commercial applications, which are believed to be one of the triggers for the next market cycle. We firmly believe in this thesis and are committed to integrating various digital asset application scenarios and token economy models, represented by NFTs, into the public chain system effectively.
 
- Our aim is to create a sustainable ecosystem in Web 3.0, allowing utility tokens to effectively play their role in promoting the development of virtual and real-world economies, while avoiding mere financial speculation, and instead, encouraging long-term thinking.
+ Our aim is to create a sustainable ecosystem in Web3, allowing utility tokens to effectively play their role in promoting the development of virtual and real-world economies, while avoiding mere financial speculation, and instead, encouraging long-term thinking.
 
-The previous focus of NFT applications at the creative, and underlying blockchain and L2 level, has resulted in a lack of sustainable development capacity for numerous NFT applications. The lack of an infrastructure platform that can provide true commercial-level support for NFTs is the key issue. As a result, NFT progress in the commercial field has been slow, and enterprise-level applications transitioning from Web 2.0 to Web 3.0 have stalled.
+The previous focus of NFT applications at the creative, and underlying blockchain and L2 level, has resulted in a lack of sustainable development capacity for numerous NFT applications. The lack of an infrastructure platform that can provide true commercial-level support for NFTs is the key issue. As a result, NFT progress in the commercial field has been slow, and enterprise-level applications transitioning from Web2 to Web3 have stalled.
 
 The most common issues include unstable operation of commercial applications, contradictions between efficiency and security, high development and operation costs, lack of guaranteed cross-domain asset rights and atomicity, and a severe shortage of commercial middleware modules.
 
-Uptick Network's core technical team has experienced the full cycle from Web 1.0 to Web 3.0, and has rich experience in research, development, and operation of commercial-grade infrastructure and applications. We are building Uptick Network to provide technical support, one-stop solutions, and an ecosystem development platform for NFT-related commercial applications. The aim is to construct a Web 3.0 ecosystem application system based on commercial-grade NFT infrastructure and services.
+Uptick Network's core technical team has experienced the full cycle from Web1 to Web3, and has rich experience in research, development, and operation of commercial-grade infrastructure and applications. We are building Uptick Network to provide technical support, one-stop solutions, and an ecosystem development platform for NFT-related commercial applications. The aim is to construct a Web3 ecosystem application system based on commercial-grade NFT infrastructure and services.
 
 **Philosophy**
 
@@ -74,7 +74,7 @@ Uptick Network integrates basic components such as oracles, IPFS, and DID, formi
 
 Based on these components, the Uptick Protocol is abstracted according to the business model, forming the **protocol layer**. In this layer, metadata standards for various digital assets using NFTs as carriers are encapsulated, as well as decentralized protocols for NFT operations on the local chain and cross-chain, commercial logic, economics, and governance. Additionally, Layer 2 solutions for further expansion are also prepared. The protocol layer is modularly encapsulated, providing open extensibility.
 
-In the **framework layer**, supporting services for commercial NFT assets are provided, and modules such as multi-chain data analytics, omnichannel payment, copyright and royalty management, digital asset wallet management, digital asset transaction management, decentralized data services, and decentralized governance services are built based on standard protocols. This allows developers to quickly and conveniently develop decentralized commercial-grade NFT applications (dApps) through the framework layer and Web 3.0 API.
+In the **framework layer**, supporting services for commercial NFT assets are provided, and modules such as multi-chain data analytics, omnichannel payment, copyright and royalty management, digital asset wallet management, digital asset transaction management, decentralized data services, and decentralized governance services are built based on standard protocols. This allows developers to quickly and conveniently develop decentralized commercial-grade NFT applications (dApps) through the framework layer and Web3 API.
 
 The **ecosystem application layer** is an open ecosystem application system, including a general NFT trading platform created by the Uptick Network team and various applications based on years of industry experience. More importantly, it will consist of ecosystem applications created by global commercial application developers and operators. We believe that high-quality NFT infrastructure platforms and effective incentive mechanisms will attract a large number of high-quality commercial applications to be implemented on the Uptick Network.
 
@@ -278,7 +278,7 @@ Uptick Layer 2 is an off-chain scaling solution which is built on top of Uptick 
 
  With the combined advantages of higher transactions per second and lower fees, Layer 2 can focus on improving the user experience and expanding the application scope.
 
-As new technologies continue to emerge in the Web 3.0 domain, Uptick Network's core modules will be continuously updated and expanded with new foundational modules.
+As new technologies continue to emerge in the Web3 domain, Uptick Network's core modules will be continuously updated and expanded with new foundational modules.
 
 Uptick Network actively seeks collaboration with technical community teams, in addition to the core team's research and development, to continually enhance and expand Uptick Network's infrastructure.
 
@@ -392,7 +392,7 @@ NFTs are unique digital assets and require Decentralized Finance (DeFi) and othe
 
 Uptick Network's universal protocol builds upon the foundation of the ERC and CW protocols by incorporating additional infrastructure and application layer requirements, resulting in a comprehensive protocol designed for the application layer.
 
-As Web 3.0 continues to evolve, more universal protocols will be developed, optimized, and improved to meet growing demand.
+As Web3 continues to evolve, more universal protocols will be developed, optimized, and improved to meet growing demand.
 
 ## **6. Framework and Services**
 
@@ -432,7 +432,7 @@ The omnichannel payment module on Uptick Network can provide the following benef
 
 ### **6.2. Decentralized Data Analytics Service**
 
-The decentralized data analytic service is a data analysis service built on a decentralized infrastructure that leverages distributed technologies in order to provide secure, transparent, and trustless access to data analytics, which is key for the democratization of data in Web 3.0. This empowers users and businesses to maintain necessary control of their data while also benefiting from advanced data analytics.
+The decentralized data analytic service is a data analysis service built on a decentralized infrastructure that leverages distributed technologies in order to provide secure, transparent, and trustless access to data analytics, which is key for the democratization of data in Web3. This empowers users and businesses to maintain necessary control of their data while also benefiting from advanced data analytics.
 
 ### Decentralized Data Analytic Service Key Features：
 
@@ -516,15 +516,15 @@ Decentralized CRM on Uptick leverages blockchain technology to provide a secure,
 
  Uptick Social DAO is a unique platform-based application that manages Uptick governance within the decentralized community, and is based on the data structure of the decentralized CRM module.
 
-### **6.5. Web 3.0 API**
+### **6.5. Web3 API**
 
-The Web 3.0 API is the external interface provided by various Uptick modules, which ensures that each function supports dApp developers through the underlying Web 3.0 API. Simple and intuitive interfaces are available, which enables Web 3.0 API developers to fully take advantage of blockchain technology, and offer users secure, transparent, and trustless decentralized solutions.
+The Web3 API is the external interface provided by various Uptick modules, which ensures that each function supports dApp developers through the underlying Web3 API. Simple and intuitive interfaces are available, which enables Web3 API developers to fully take advantage of blockchain technology, and offer users secure, transparent, and trustless decentralized solutions.
 
-### Web 3.0 API Main Features：
+### Web3 API Main Features：
 
 **Abstraction**
 
-Developers interact with blockchain through the Web 3.0 API, making it much more simple and intuitive, and removing the need to worry about underlying technical details.
+Developers interact with blockchain through the Web3 API, making it much more simple and intuitive, and removing the need to worry about underlying technical details.
 
 **Flexibility**
 
@@ -620,7 +620,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
 ## **8. Direction and Roadmap**
 
-By incorporating other groundbreaking technologies from the next-generation Web 3.0 landscape into Uptick Network's infrastructure and services, we can offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
+By incorporating other groundbreaking technologies from the next-generation Web3 landscape into Uptick Network's infrastructure and services, we can offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
 
 **Strategy for Advancing Cosmos Technology and NFT Applications**
 
@@ -634,9 +634,9 @@ Uptick Network is dedicated to tracking and integrating the latest blockchain in
 
 Uptick Network continuously refines and broadens its protocol and framework layer service modules based on NFT technology and digital asset application requirements, supporting all types of NFT-related business scenarios and use cases. Decentralized data service modules are especially crucial, as they assist ecological applications in efficiently accessing authorized data traffic and foster a win-win relationship between data rights holders and service providers.
 
- **Integrating Web 3.0 Technologies for AI and Social Protocols**
+ **Integrating Web3 Technologies for AI and Social Protocols**
 
-Incorporating other outstanding technologies from the next-generation Web 3.0 into Uptick Network's infrastructure and services, we offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
+Incorporating other outstanding technologies from the next-generation Web3 into Uptick Network's infrastructure and services, we offer diverse scenario support for application developers and operators. Currently, we are particularly focused on the evolution of artificial intelligence technology and decentralized social protocols.
 
  **Roadmap**
 
@@ -646,7 +646,7 @@ The following is a clear roadmap that aligns with this development vision. These
 
 * Launch Uptick Chain
 
-* Release Web 3.0 API
+* Release Web3 API
 
 * Deploy NFT infrastructure and the official flagship application, Uptick Chain NFT Marketplace
 
@@ -656,15 +656,15 @@ The following is a clear roadmap that aligns with this development vision. These
 
 **Stage 2**  **| Infrastructure Improvement and Industry Resource Integration**
 
- * Complete the integration of oracle (technology provider to be determined), deploy it to mainnet, and update the Web 3.0 API
+ * Complete the integration of oracle (technology provider to be determined), deploy it to mainnet, and update the Web3 API
 
-* Complete the integration of the Wasm module, deploy it to mainnet, and update the Web 3.0 API
+* Complete the integration of the Wasm module, deploy it to mainnet, and update the Web3 API
 
 **Stage 3**  **| Cross-chain NFT and Infrastructure Enhancement**
 
 * Complete the testing and verification of the NFT cross-chain module through Game of NFTs (GoN)
 
- * Based on the module verification results, upgrade the mainnet and update the Web 3.0 API
+ * Based on the module verification results, upgrade the mainnet and update the Web3 API
 
 * Promote the development of cross-chain ecosystem applications using IBC and UCB
 
@@ -714,7 +714,7 @@ The main components of the Uptick Network infrastructure can be summarized as fo
 
 These components work together to form the foundation of the Uptick Network, creating a robust and scalable infrastructure for the development and growth of the NFT ecosystem.
 
- Building a successful and thriving Web 3.0 infrastructure and application ecosystem is a marathon, not a sprint, and in the Web 3.0 world, high-quality and sustainable projects cannot be solely built by a core team. We welcome friends from the global community and industry to join us in building a solid infrastructure and a rich application ecosystem for Web 3.0 through community governance and DAO collaboration.
+ Building a successful and thriving Web3 infrastructure and application ecosystem is a marathon, not a sprint, and in the Web3 world, high-quality and sustainable projects cannot be solely built by a core team. We welcome friends from the global community and industry to join us in building a solid infrastructure and a rich application ecosystem for Web3 through community governance and DAO collaboration.
 
-  By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web 3.0 landscape.
+  By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web3 landscape.
 
