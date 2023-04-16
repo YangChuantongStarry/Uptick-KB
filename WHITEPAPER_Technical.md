@@ -88,6 +88,8 @@ The **ecosystem application layer** is an open ecosystem application system, inc
 
 Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos Ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
 
+Uptick chain supports cross-chain transfers including EVM contracts based on the cross-chain protocol ICS-721.
+
 ### **3.1. Built on Cosmos-SDK**
 
 <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png" style="width: 80%;">
@@ -144,6 +146,7 @@ In addition to using the existing Cosmos-SDK, Uptick Network actively participat
 * Develop an internal NFT transfer protocol and make it available as an open-source extension SDK for the Cosmos community (for specific NFT internal conversions, please refer to 5.3 Programmable NFT Protocol).
 
  * Expand the functionality of the SDK so that it can call external ecosystem services internally, such as Chainlink's VRF random number feature.
+
 
 ### **3.2. Major Smart Contract Language Support**
 
@@ -645,6 +648,10 @@ The following is a clear roadmap that aligns with this development vision. These
 **Stage 1**  **| Foundation Chain and Basic Services**
 
 * Launch Uptick Chain
+
+* Realize cross-chain implementation of EVM contract based on ISC-721 protocol
+
+* Deploy the UCB chain cross-chain module on the evm of the uptick chain
 
 * Release Web3 API
 
