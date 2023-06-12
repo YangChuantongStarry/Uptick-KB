@@ -78,13 +78,13 @@ In the **framework layer**, supporting services for commercial NFT assets are pr
 
 The **ecosystem application layer** is an open ecosystem application system, including a general NFT trading platform created by the Uptick Network team and various applications based on years of industry experience. More importantly, it will consist of ecosystem applications created by global commercial application developers and operators. We believe that high-quality NFT infrastructure platforms and effective incentive mechanisms will attract a large number of high-quality commercial applications to be implemented on the Uptick Network.
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FourMainLayers.png" style="width: 90%;">
+<img src="./image/FourMainLayers.png" style="width: 90%;">
 
 **Uptick Network Infrastructure | Key Components**
 
 ## **3. Uptick Chain**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickChain.png" style="width: 90%;">
+<img src="./image/UptickChain.png" style="width: 90%;">
 
 Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos Ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
 
@@ -92,7 +92,7 @@ Uptick chain supports cross-chain transfers including EVM contracts based on the
 
 ### **3.1. Built on Cosmos-SDK**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BuiltonCosmos-SDK.png" style="width: 80%;">
+<img src="./image/BuiltonCosmos-SDK.png" style="width: 80%;">
 
 In the Cosmos Ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
@@ -150,7 +150,7 @@ In addition to using the existing Cosmos-SDK, Uptick Network actively participat
 
 ### **3.2. Major Smart Contract Language Support**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/MajorSmartContract.png" style="width: 80%;">
+<img src="./image/MajorSmartContract.png" style="width: 80%;">
 
 Smart contracts are highly deterministic, tamper-proof, and reliable digital protocols that run on decentralized blockchains. Since NFTs were initially built on the ERC protocol, most mainstream NFT platforms now support smart contracts. However, traditional NFT platforms only support NFT assets on EVM or WASM. Both types of NFT assets have their application scenarios and business requirements for mutual conversion.
 
@@ -170,7 +170,7 @@ It should be noted that the underlying technology of blockchain contracts is con
 
 ## **4. Base Layer Modules**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/BaseLayerModules.png" style="width: 80%;">
+<img src="./image/BaseLayerModules.png" style="width: 80%;">
 
 Uptick Network has built a complete set of fundamental modules in the upper layer of the Uptick Chain, which have been continuously improved through long-term practice.
 
@@ -206,7 +206,7 @@ Through these features, Uptick aims to provide a more seamless and integrated bl
 
 ### **4.2. Uptick Cross-chain Bridge (UCB)**
 
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickCross-chainBridge.png" style="width: 90%;">
+<img src="./image/UptickCross-chainBridge.png" style="width: 90%;">
 
 In Cosmos-SDK, Tendermint light clients use twisted Edwards curves (Ed25519) which are not compatible with the Ethereum chain that operates on BN254. Consequently, on-chain validation of Ed25519 signatures on Ethereum is inefficient and expensive.
 
@@ -219,15 +219,14 @@ Unlike IBC, which mainly focuses on cross-chain operations within the Cosmos Eco
 **UCB Three-stage Iterative Evolution Plan**
 
 
-**UCB V1.0** uses a proxy model similar to the implementation of Wrapped Bitcoin (WBTC). This approach enables fast and relatively low-cost cross-chain transfers through proxies, reducing the likelihood of malicious behaviour, especially when digital assets are used as collateral.
+**UCB V1.0** is based on trust in relayers. However, it is overly centralized, with poorer trust assumptions and limited oversight. There is a potential security risk when an attacker controls the majority of bridge fund signatories.
 
-**UCB V2.0** is based on trust in relayers. However, it is overly centralized, with poorer trust assumptions and limited oversight. There is a potential security risk when an attacker controls the majority of bridge fund signatories.
+**UCB V2.0** UCB2.0 represents an upgraded version of the original UCB1.0 iteration, with the primary purpose of addressing the following issues:
+*  Over-reliance on the relayer: UCB1.0 was heavily reliant on the relayer, which limited its cross-chain capabilities. UCB2.0 addresses this issue by leveraging the cross-chain protocol of IBC to facilitate cross-chain transactions between UCB and EVM chains.
+*  To address the issue of excessive gas consumption for data calculation and verification on the original IBC light client, UCB2.0 leverages the zk-SNARK algorithm to perform a significant amount of calculations off-chain. The chain only verifies zero-knowledge proofs (ZKPs), thereby reducing gas consumption for data verification. 
+*  The UCB2.0 platform also utilizes the rollup mechanism to facilitate batch processing and verification of transactions. This helps reduce transaction fees and improve transaction throughput, resulting in a more efficient and cost-effective cross-chain solution.
 
-**UCB V3.0** upgrades the existing cross-chain bridge algorithm by implementing cross-chain bridge logic based on zero-knowledge proofs (ZKPs). The block header relay network consists of a relay node network that listens for state changes on bridged chains and retrieves block headers from full nodes within the blocks. The relay nodes' primary function is to generate a ZKP that verifies the correctness of a block header from one chain and forwards it to the update contract on another chain. The update contract performs validation and either accepts or rejects proofs from nodes in the relay network.
-
-  A key innovation in this structure is the parallel use of zk-SNARKs, which have succinct verification/proof sizes and do not require a trusted setup. The circuit used for verifying N signatures essentially consists of N copies of the same subcircuit.
-
-<img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UCBThree-stage.png" style="width: 80%;">
+<img src="./image/UCB2Flow.png" style="width: 90%;">
 
 ### **4.3. Uptick Storage**
 
@@ -289,7 +288,7 @@ Uptick Network actively seeks collaboration with technical community teams, in a
 
 The Uptick Protocol is a modular business protocol created by the Uptick core team. Its primary objective is to support a range of NFT business scenarios. By offering a flexible and adaptable framework, the Uptick Protocol allows developers to create and implement diverse use cases for NFTs, promoting innovation and growth within the NFT ecosystem.
 
- <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/UptickProtocol.png" style="width: 80%;">
+ <img src="./image/UptickProtocol.png" style="width: 80%;">
 
 ### **5.1. Programmable NFT Protocol**
 
@@ -401,7 +400,7 @@ As Web3 continues to evolve, more universal protocols will be developed, optimiz
 
 The Uptick framework is built on top of the Uptick Chain and its underlying modules, adhering to the Uptick Protocol development standards. This framework is presented to the community developers as a fundamental infrastructure. Furthermore, based on the requirements of various businesses, Uptick Network offers several service modules related to business within the fundamental framework, with the following specific features:
 
- <img src="https://github.com/UptickNetwork/Uptick-KB/blob/main/image/FrameworkandServices.png" style="width: 90%;">
+ <img src="./image/FrameworkandServices.png" style="width: 90%;">
 
 **6.1. Omnichannel Payment Module**
 
