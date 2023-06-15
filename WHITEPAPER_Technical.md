@@ -66,7 +66,7 @@
     - [Cosmos Native NFT \<=\> ERC-721 Assets](#cosmos-native-nft--erc-721-assets)
     - [Cosmos Native NFT \<=\> CW-721 Assets](#cosmos-native-nft--cw-721-assets)
     - [ERC-721 Assets \<=\> CW-721 Assets](#erc-721-assets--cw-721-assets)
-- [5.4. NFT Scenario Protocol](#54-nft-scenario-protocol)
+  - [5.4. NFT Scenario Protocol](#54-nft-scenario-protocol)
     - [Collectible](#collectible)
     - [Functional](#functional)
     - [Social](#social)
@@ -75,7 +75,7 @@
     - [NFT Asset Collateralization Standard](#nft-asset-collateralization-standard)
     - [NFT Asset Leasing](#nft-asset-leasing)
 - [6. Framework and Services](#6-framework-and-services)
-- [6.1. Omnichannel Payment Module](#61-omnichannel-payment-module)
+  - [6.1. Omnichannel Payment Module](#61-omnichannel-payment-module)
     - [Multiple Cryptocurrency Support](#multiple-cryptocurrency-support)
     - [Reduced Payment Costs](#reduced-payment-costs)
     - [Increased Payment Speed](#increased-payment-speed)
@@ -118,9 +118,9 @@
   - [Functional/Utility：](#functionalutility)
     - [Decentralized Finance (DeFi)](#decentralized-finance-defi)
     - [E-Commerce](#e-commerce)
-- [Tickets](#tickets)
-    - [Gaming](#gaming)
-    - [Tokenized Real-World Assets](#tokenized-real-world-assets)
+  - [Tickets](#tickets)
+  - [Gaming](#gaming)
+  - [Tokenized Real-World Assets](#tokenized-real-world-assets)
   - [Social：](#social-1)
     - [Identity \& Credentials](#identity--credentials)
     - [Loyalty Programs](#loyalty-programs)
@@ -502,7 +502,7 @@ Cross-chain transfers of NFTs across multiple chains are achieved through variou
 
  This conversion allows for the direct exchange of ERC-721 assets and CW-721 assets, enabling users to move NFTs between the Ethereum Ecosystem and the CosmWasm platform more efficiently. This conversion enhances the interoperability of NFTs across different blockchain platforms.
 
-## 5.4. NFT Scenario Protocol
+### 5.4. NFT Scenario Protocol
 
 The infrastructure requirements for the Uptick Network vary depending on different applications. Some use cases require high real-time performance and high concurrency, while others demand higher security levels, high data throughput, and low gas fees.
 
@@ -550,7 +550,7 @@ The Uptick framework is built on top of the Uptick Chain and its underlying modu
 
  <img src="./image/FrameworkandServices.png" style="width: 90%;">
 
-## 6.1. Omnichannel Payment Module
+### 6.1. Omnichannel Payment Module
 
 The omnichannel payment module within the Uptick Network framework is a vital component that aims to integrate various cryptocurrency payment methods while complying with the regulatory requirements of different countries and regions.
 
@@ -734,15 +734,15 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  NFTs can be used as unique digital goods in online stores, allowing for exclusive items or limited edition products.
 
- ## Tickets
+ ### Tickets
 
  Event tickets can be tokenized Uptick Ecosystem as NFTs, providing a secure and verifiable way to manage ticket sales and transfers.
 
-#### Gaming
+### Gaming
 
  In-game assets like characters, weapons, and virtual land can be represented as NFTs, enabling true ownership and tradeability for players.
 
-#### Tokenized Real-World Assets
+### Tokenized Real-World Assets
 
   NFTs can represent fractional ownership of physical assets such as real estate, vehicles, or collectibles, providing new investment opportunities and markets.
 
