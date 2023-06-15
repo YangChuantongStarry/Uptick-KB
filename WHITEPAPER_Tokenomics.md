@@ -113,7 +113,7 @@ Where baseFee is the fixed-per-block network fee per gas and priorityTip is an a
 
 In addition to being allocated to the POS nodes and staking accounts, the transaction fees mentioned above will also be collected as community tax and will enter the community pool. A portion of the funds in the pool will be used as part of the token economic model, either to participate in community incentives or to be burned directly as one of the means of controlling inflation.
 
- Please refer to the ## [Token Economics]##  section for more details.
+ Please refer to the  **[Token Economics]**  section for more details.
 
 ### Staking
 
