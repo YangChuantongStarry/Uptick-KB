@@ -1,4 +1,5 @@
 ## Uptick Network Technical Whitepaper
+  
 - [Uptick Network Technical Whitepaper](#uptick-network-technical-whitepaper)
 - [Abstract](#abstract)
 - [Inter-Blockchain Communication (IBC)](#inter-blockchain-communication-ibc)
@@ -22,11 +23,9 @@
     - [Why Uptick Network Chose Cosmos](#why-uptick-network-chose-cosmos)
     - [SDK Enhancement](#sdk-enhancement)
   - [3.2. Major Smart Contract Language Support](#32-major-smart-contract-language-support)
-  - [Benefits of this Approach：](#benefits-of-this-approach)
     - [Leverage Advantages of Various Contracts](#leverage-advantages-of-various-contracts)
     - [Mutual Conversion Based on Business Requirements and Scenarios](#mutual-conversion-based-on-business-requirements-and-scenarios)
 - [4. Base Layer Modules](#4-base-layer-modules)
-- [Fundamental Modules](#fundamental-modules)
   - [4.1. Oracle](#41-oracle)
     - [DeFi](#defi)
     - [Enterprise Applications](#enterprise-applications)
@@ -44,7 +43,6 @@
     - [Cross-platform Interoperability](#cross-platform-interoperability)
     - [Verifiable Credentials](#verifiable-credentials)
   - [4.5. Uptick Layer 2](#45-uptick-layer-2)
-  - [Uptick Layer 2 Benefits：](#uptick-layer-2-benefits)
     - [Reduced Fees](#reduced-fees)
     - [Increased Practicality](#increased-practicality)
 - [5. Uptick Protocol](#5-uptick-protocol)
@@ -79,7 +77,6 @@
     - [Enhanced Payment Security](#enhanced-payment-security)
     - [Improved Payment Transparency](#improved-payment-transparency)
   - [6.2. Decentralized Data Analytics Service](#62-decentralized-data-analytics-service)
-  - [Decentralized Data Analytic Service Key Features：](#decentralized-data-analytic-service-key-features)
     - [Privacy and Security](#privacy-and-security)
     - [Trustless Collaboration](#trustless-collaboration)
     - [Immutability and Transparency](#immutability-and-transparency)
@@ -92,14 +89,12 @@
     - [Provide Copyright Query Interface](#provide-copyright-query-interface)
     - [Cross-chain Copyright Management](#cross-chain-copyright-management)
   - [6.4. Decentralized CRM Service and Uptick Social DAO](#64-decentralized-crm-service-and-uptick-social-dao)
-  - [Uptick Network Decentralized CRM | Key Features：](#uptick-network-decentralized-crm--key-features)
     - [Data Security](#data-security)
     - [Data Ownership and Privacy](#data-ownership-and-privacy)
     - [Transparency and Trust](#transparency-and-trust)
     - [Interoperability](#interoperability-1)
     - [Automation and Efficiency](#automation-and-efficiency)
   - [6.5. Web3 API](#65-web3-api)
-  - [Web3 API Main Features：](#web3-api-main-features)
     - [Abstraction](#abstraction)
     - [Flexibility](#flexibility)
     - [Ease of Use](#ease-of-use)
@@ -143,7 +138,6 @@
     - [Uptick Protocol](#uptick-protocol)
     - [Framework Layer](#framework-layer)
     - [Ecosystem Application Layer](#ecosystem-application-layer)
-
 
 ## Abstract
 
@@ -301,7 +295,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
  Therefore, Uptick provides support for mainstream EVM and WASM contracts and seamless conversion between the two types of assets at the contract layer.
 
-### Benefits of this Approach：
+ **Benefits of this Approach：**
 
 #### Leverage Advantages of Various Contracts
 
@@ -319,7 +313,7 @@ It should be noted that the underlying technology of blockchain contracts is con
 
 Uptick Network has built a complete set of fundamental modules in the upper layer of the Uptick Chain, which have been continuously improved through long-term practice.
 
-## Fundamental Modules
+** Fundamental Modules**
 
 ### 4.1. Oracle
 
@@ -415,7 +409,7 @@ Uptick DID is a decentralized identity credential within the Uptick Network, cre
 
 Uptick Layer 2 is an off-chain scaling solution which is built on top of Uptick Layer 1. The primary purpose is to enhance the performance of Layer 1 blockchains by optimizing transaction speeds, reducing transaction costs, and increasing scalability. By building solutions on Layer 2, it is possible to achieve higher throughput, faster confirmation of transactions, and a much more flexible environment for application development.
 
-### Uptick Layer 2 Benefits：
+ **Uptick Layer 2 Benefits：**
 
 #### Reduced Fees
 
@@ -581,7 +575,7 @@ The omnichannel payment module on Uptick Network can provide the following benef
 
 The decentralized data analytic service is a data analysis service built on a decentralized infrastructure that leverages distributed technologies in order to provide secure, transparent, and trustless access to data analytics, which is key for the democratization of data in Web3. This empowers users and businesses to maintain necessary control of their data while also benefiting from advanced data analytics.
 
-### Decentralized Data Analytic Service Key Features：
+ **Decentralized Data Analytic Service Key Features：**
 
 #### Privacy and Security
 
@@ -637,7 +631,7 @@ As a commercial-grade NFT infrastructure, Uptick Network provides a management s
 
 Decentralized CRM (Customer Relationship Management) on Uptick Network is a system that leverages the decentralized and transparent properties of distributed technology. Unlike traditional CRM systems, which rely on centralized databases and servers, decentralized CRM is built on a robust distributed network which enhances security, privacy, and data ownership.
 
-### Uptick Network Decentralized CRM | Key Features：
+ ** Uptick Network Decentralized CRM | Key Features：**
 
 #### Data Security
 
@@ -667,7 +661,7 @@ Decentralized CRM on Uptick leverages blockchain technology to provide a secure,
 
 The Web3 API is the external interface provided by various Uptick modules, which ensures that each function supports dApp developers through the underlying Web3 API. Simple and intuitive interfaces are available, which enables Web3 API developers to fully take advantage of blockchain technology, and offer users secure, transparent, and trustless decentralized solutions.
 
-### Web3 API Main Features：
+ **Web3 API Main Features：**
 
 #### Abstraction
 
