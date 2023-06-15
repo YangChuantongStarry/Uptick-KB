@@ -31,7 +31,7 @@
 - [Fundamental Modules](#fundamental-modules)
   - [4.1. Oracle](#41-oracle)
     - [DeFi](#defi)
-- [Enterprise Applications](#enterprise-applications)
+    - [Enterprise Applications](#enterprise-applications)
     - [Network Infrastructure Services](#network-infrastructure-services)
     - [NFTs and Gaming](#nfts-and-gaming)
     - [Climate Data Market](#climate-data-market)
@@ -51,7 +51,6 @@
     - [Increased Practicality](#increased-practicality)
 - [5. Uptick Protocol](#5-uptick-protocol)
   - [5.1. Programmable NFT Protocol](#51-programmable-nft-protocol)
-  - [Programmable NFT Protocol Features：](#programmable-nft-protocol-features)
     - [Metadata Customization](#metadata-customization)
     - [Smart Contract Integration](#smart-contract-integration)
     - [Interoperability](#interoperability)
@@ -113,18 +112,18 @@
     - [Art](#art)
     - [Photographs](#photographs)
     - [Music](#music)
-- [Video](#video)
+    - [Video](#video)
     - [Metaverse Galleries](#metaverse-galleries)
   - [Functional/Utility：](#functionalutility)
     - [Decentralized Finance (DeFi)](#decentralized-finance-defi)
     - [E-Commerce](#e-commerce)
-  - [Tickets](#tickets)
-  - [Gaming](#gaming)
+    - [Tickets](#tickets)
+    - [Gaming](#gaming)
   - [Tokenized Real-World Assets](#tokenized-real-world-assets)
   - [Social：](#social-1)
     - [Identity \& Credentials](#identity--credentials)
     - [Loyalty Programs](#loyalty-programs)
-- [Charity](#charity)
+    - [Charity](#charity)
     - [Health](#health)
     - [Fan Economy](#fan-economy)
 - [8. Direction and Roadmap](#8-direction-and-roadmap)
@@ -146,6 +145,7 @@
     - [Uptick Protocol](#uptick-protocol)
     - [Framework Layer](#framework-layer)
     - [Ecosystem Application Layer](#ecosystem-application-layer)
+
 
 
 ## Abstract
@@ -334,7 +334,7 @@ Upon the launch of the Uptick Chain Mainnet, we plan to establish Oracle nodes o
 
 Provide accurate price reference feeds
 
-## Enterprise Applications
+#### Enterprise Applications
 
 Serve as an abstraction layer for blockchain
 
@@ -442,7 +442,7 @@ The Uptick Protocol is a modular business protocol created by the Uptick core te
 
 A programmable NFT protocol is an advanced NFT implementation that offers customization and programmability beyond the basic functionality of traditional NFTs. With a programmable NFT protocol, each NFT can possess unique properties, functionalities, or behaviours that can be defined and manipulated by its creators, owners, or other authorized parties.
 
-### Programmable NFT Protocol Features：
+** Programmable NFT Protocol Features：**
 
 #### Metadata Customization
 
@@ -716,7 +716,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  Musicians can tokenize their songs or albums as NFTs, allowing fans to own limited edition releases or exclusive content while directly supporting their favorite artists.
 
- ## Video
+ #### Video
 
  Filmmakers and video creators can issue NFTs for their work, providing a new way to distribute and monetize digital content.
 
@@ -734,11 +734,11 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  NFTs can be used as unique digital goods in online stores, allowing for exclusive items or limited edition products.
 
- ### Tickets
+ #### Tickets
 
  Event tickets can be tokenized Uptick Ecosystem as NFTs, providing a secure and verifiable way to manage ticket sales and transfers.
 
-### Gaming
+#### Gaming
 
  In-game assets like characters, weapons, and virtual land can be represented as NFTs, enabling true ownership and tradeability for players.
 
@@ -756,7 +756,7 @@ Uptick Network has built an open infrastructure that allows developers to collab
 
  Businesses can issue NFTs as rewards or loyalty points, enabling unique and personalized customer engagement strategies.
 
-## Charity
+#### Charity
 
  NFTs can be used for fundraising and awareness campaigns, allowing supporters to own a unique digital asset that represents their contribution.
 
