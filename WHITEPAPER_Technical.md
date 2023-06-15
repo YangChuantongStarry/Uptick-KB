@@ -1,5 +1,33 @@
 ## Uptick Network Technical Whitepaper
   
+- [Uptick Network Technical Whitepaper](#uptick-network-technical-whitepaper)
+- [Abstract](#abstract)
+  - [1. Overview](#1-overview)
+  - [2. System Architecture](#2-system-architecture)
+  - [3. Uptick Chain](#3-uptick-chain)
+    - [3.1. Built on Cosmos-SDK](#31-built-on-cosmos-sdk)
+    - [3.2. Major Smart Contract Language Support](#32-major-smart-contract-language-support)
+  - [4. Base Layer Modules](#4-base-layer-modules)
+    - [4.1. Oracle](#41-oracle)
+    - [4.2. Uptick Cross-chain Bridge (UCB)](#42-uptick-cross-chain-bridge-ucb)
+    - [4.3. Uptick Storage](#43-uptick-storage)
+    - [4.4. Uptick DID](#44-uptick-did)
+    - [4.5. Uptick Layer 2](#45-uptick-layer-2)
+  - [5. Uptick Protocol](#5-uptick-protocol)
+    - [5.1. Programmable NFT Protocol](#51-programmable-nft-protocol)
+    - [5.2. Interchain NFT Protocol](#52-interchain-nft-protocol)
+    - [5.3. Interchain NFT Protocol](#53-interchain-nft-protocol)
+    - [5.4. NFT Scenario Protocol](#54-nft-scenario-protocol)
+    - [5.5. DeFi Protocol](#55-defi-protocol)
+  - [6. Framework and Services](#6-framework-and-services)
+    - [6.1. Omnichannel Payment Module](#61-omnichannel-payment-module)
+    - [6.2. Decentralized Data Analytics Service](#62-decentralized-data-analytics-service)
+    - [6.3. Loyalty and Rights Management](#63-loyalty-and-rights-management)
+    - [6.4. Decentralized CRM Service and Uptick Social DAO](#64-decentralized-crm-service-and-uptick-social-dao)
+    - [6.5. Web3 API](#65-web3-api)
+  - [7. Tokenized Real-world Assets](#7-tokenized-real-world-assets)
+  - [8. Direction and Roadmap](#8-direction-and-roadmap)
+  - [9. Conclusion](#9-conclusion)
 
 
 ## Abstract
