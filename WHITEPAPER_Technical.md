@@ -1,5 +1,4 @@
 ## Uptick Network Technical Whitepaper
-
 - [Uptick Network Technical Whitepaper](#uptick-network-technical-whitepaper)
 - [Abstract](#abstract)
 - [Inter-Blockchain Communication (IBC)](#inter-blockchain-communication-ibc)
@@ -15,7 +14,6 @@
 - [Uptick Network Infrastructure | Key Components](#uptick-network-infrastructure--key-components)
 - [3. Uptick Chain](#3-uptick-chain)
   - [3.1. Built on Cosmos-SDK](#31-built-on-cosmos-sdk)
-  - [Cosmos Ecosystem Features：](#cosmos-ecosystem-features)
     - [Cross-chain Interoperability](#cross-chain-interoperability)
     - [Modularity](#modularity)
     - [Scalability](#scalability)
@@ -147,7 +145,6 @@
     - [Ecosystem Application Layer](#ecosystem-application-layer)
 
 
-
 ## Abstract
 
 Uptick Network is a comprehensive, business-grade digital asset infrastructure and ecosystem built on Uptick Chain; a high-performance blockchain based on the Cosmos-SDK. Its aim is to support a wide range of NFT-based applications and business scenarios by providing a modular and scalable infrastructure.
@@ -244,7 +241,7 @@ Uptick chain supports cross-chain transfers including EVM contracts based on the
 
 In the Cosmos Ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
 
-### Cosmos Ecosystem Features：
+** Cosmos Ecosystem Features：**
 
 #### Cross-chain Interoperability
 
