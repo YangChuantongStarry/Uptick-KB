@@ -1,4 +1,27 @@
 ## Uptick Network Tokenomics Whitepaper
+- [Uptick Network Tokenomics Whitepaper](#uptick-network-tokenomics-whitepaper)
+- [Introduction](#introduction)
+- [Token Utility](#token-utility)
+  - [Fees](#fees)
+    - [Parameter Settings](#parameter-settings)
+    - [Fee Allocation](#fee-allocation)
+  - [Staking](#staking)
+    - [Calculation Formula](#calculation-formula)
+    - [Parameter Settings](#parameter-settings-1)
+    - [Staking Rewards Allocation](#staking-rewards-allocation)
+  - [General Governance](#general-governance)
+    - [Governance Function](#governance-function)
+    - [Parameter Settings](#parameter-settings-2)
+  - [Extended Rule-based Governance](#extended-rule-based-governance)
+- [Token Supply](#token-supply)
+- [Initial Token Distribution](#initial-token-distribution)
+- [Token Economics](#token-economics)
+  - [General Governance](#general-governance-1)
+  - [Uptick DAO Governance (Extended Rule-based Governance)](#uptick-dao-governance-extended-rule-based-governance)
+  - [Multi-Chain Economy Model](#multi-chain-economy-model)
+  - [Inflation control](#inflation-control)
+- [Roadmap and Future Plans](#roadmap-and-future-plans)
+- [Conclusion](#conclusion)
 
 
 ## Introduction
