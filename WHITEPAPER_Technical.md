@@ -38,7 +38,7 @@ The key components of the Uptick Network are:
 
 **Inter-Blockchain Communication (IBC)**
 
- For seamless interoperability between different blockchains
+For seamless interoperability between different blockchains
 
 **Uptick Chain Bridge (UCB)**
 
@@ -196,7 +196,7 @@ Smart contracts are highly deterministic, tamper-proof, and reliable digital pro
 
  Uptick facilitates the mutual conversion of contracts at the underlying level, implementing contract conversions at the chain level. For example, if an EVM contract or part of the NFT assets within it needs to be converted into WASM contract-type assets, Uptick's underlying contract converter can achieve seamless NFT asset conversion.
 
-It should be noted that the underlying technology of blockchain contracts is constantly being updated. Therefore, we will continuously update Uptick's contract engine to be compatible with the latest contract development languages such as _MOVE_ in the future.
+It should be noted that the underlying technology of blockchain contracts is constantly being updated. Therefore, we will continuously update Uptick's contract engine to be compatible with the latest contract development languages.
 
 ### 4. Base Layer Modules
 
@@ -364,11 +364,12 @@ Cross-chain transfers of NFTs across multiple chains are achieved through variou
 
  This part of the protocol defines the rules for recognizing and tracing NFT assets that have been transferred across chains. It allows users and systems within the Uptick Chain to identify the provenance, history, and ownership of cross-chain NFTs, enhancing transparency and trust in the NFT ecosystem.
 
-#### 5.3. Interchain NFT Protocol
 
-**NFT Interchain Protocol**
+### **5.3. Innerchain NFT Protocol**
 
- In addition, Uptick Network supports the EVM module and will also support other virtual machines, such as CosmWasm and Move. As a result, the conversion of NFT assets within the chain is an essential function. The Uptick team provides atomic conversion capabilities for various forms of NFT digital assets.
+**NFT Innerchain Protocol**
+
+ In addition, Uptick Network supports the EVM module and will also support other virtual machines, such as CosmWasm and EVM. As a result, the conversion of NFT assets within the chain is an essential function. The Uptick team provides atomic conversion capabilities for various forms of NFT digital assets.
 
  This protocol enables the internal conversion of NFT assets, and the internal conversions within the Uptick Chain, including:
 
@@ -753,4 +754,45 @@ These components work together to form the foundation of the Uptick Network, cre
  Building a successful and thriving Web3 infrastructure and application ecosystem is a marathon, not a sprint, and in the Web3 world, high-quality and sustainable projects cannot be solely built by a core team. We welcome friends from the global community and industry to join us in building a solid infrastructure and a rich application ecosystem for Web3 through community governance and DAO collaboration.
 
   By working together, we can foster true innovation, decentralization, and shared growth, ultimately contributing to the advancement of the Web3 landscape.
+
+## **10. References**
+
+[1]: http://ethdocs.org/en/latest/
+[2]: https://cosmos.network/whitepaper
+[3]: https://polkadot.io/
+[4]: https://tendermint.readthedocs.io/en/master/
+[5]: https://ethermint.zone/
+[6]: https://github.com/cosmos/ibc/blob/master/README.md
+[7]: https://ethereum.org/en/developers/docs/scaling/zk-rollups/
+[8]: https://ethereum.org/en/developers/docs/evm/
+[9]: https://ethresear.ch/t/bringing-ibc-to-ethereum-using-zk-snarks
+[10]: https://github.com/iden3/circom
+[11]: https://github.com/iden3/go-iden3-core
+[12]: https://github.com/matter-labs/awesome-zero-knowledge-proofs
+
+
+* [1] Ethereum Foundation, "Ethereum Homestead Documentation",
+  http://ethdocs.org/en/latest/
+
+* [2] Jae Kwon, Ethan Buchman，"Cosmos, A Network of Distributed
+  Ledgers", https://cosmos.network/whitepaper
+
+* [3] Gavin Wood, "Polkadot: Vision For a Heterogeneous Muilti-chain
+  Framework", https://polkadot.io/
+
+* [4] Tendermint, https://tendermint.com/docs/
+
+* [5] Ethermint, https://ethermint.zone/
+
+* [6] Ethan Frey, "Cosmos IBC Specification", Sep. 29, 2017,
+  https://github.com/cosmos/ibc/blob/master/README.md
+
+* [7] Smart contracts,https://en.bitcoin.it/wiki/Contract
+* [8] ETHEREUM VIRTUAL MACHINE,https://ethereum.org/en/developers/docs/evm/
+* [9] Bringing IBC to Ethereum using ZK-Snarks,https://ethresear.ch/t/bringing-ibc-to-ethereum-using-zk-snarks
+* [10] zkSnark circuit compiler,https://github.com/iden3/circom
+* [11] Go core implementation of the iden3 system ,https://github.com/iden3/go-iden3-core
+* [12] A curated list of awesome things related to learning Zero-Knowledge Proofs (ZKP). ,https://github.com/matter-labs/awesome-zero-knowledge-proofs
+
+
 
