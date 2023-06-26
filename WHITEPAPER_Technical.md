@@ -28,7 +28,7 @@
   - [7. Tokenized Real-world Assets](#7-tokenized-real-world-assets)
   - [8. Direction and Roadmap](#8-direction-and-roadmap)
   - [9. Conclusion](#9-conclusion)
- - [10. References](#10-References)
+  - [10. References](#10-References)
 
 ## Abstract
 
