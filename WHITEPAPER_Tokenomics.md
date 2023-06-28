@@ -76,6 +76,7 @@ Tokens managed by Uptick Chain are not limited to the native tokens supported by
 * Extended Rule-based Governance
 
 <img src="./image/RuleBased.jpg" width="450px">
+<div align="center">Figure 1. Token Utility</div>
 
 ### Fees
 
@@ -322,6 +323,7 @@ By designing multi-layered token economics, Uptick Network aims to create a comp
 _The following figure illustrates the structure of Uptick Network's multi-layered token economics:_
 
 <img src="./image/StructureofUptick.jpg"  width="650px" style=" margin-top:30px;margin-bottom:30px;">
+<div align="center">Figure 2. Multi-Chain Economy Layer</div>
 
 A multi-layered token economy offers several advantages:
 
@@ -365,7 +367,7 @@ This contract ensures both the powerful decentralized finance functions of EVM c
 
 
 <img src="./image/Validators.jpg" style="width: 90%; margin-top:30px;margin-bottom:30px;">
-
+<div align="center">Figure 3. Uptick DAO Governance </div>
 
 Uptick DAO Governance will cover different categories with different rules, such as rights management, business grade application development and operation, decentralized data services, etc.
 
@@ -393,7 +395,7 @@ _Example:_
 
 
 <img src="./image/EappRules.jpg" style="width: 90%; margin-top:30px;margin-bottom:30px;">
-
+<div align="center">Figure 4. Example of Rewards Governance</div>
 
 ### Multi-Chain Economy Model
 
