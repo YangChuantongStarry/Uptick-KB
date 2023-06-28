@@ -112,14 +112,14 @@ The **ecosystem application layer** is an open ecosystem application system, inc
 <img src="./image/FourMainLayers.png" style="width: 90%;">
 
 
-<center>Figure 1. Uptick Network Technology Architecture</center>
+<div align="center">Figure 1. Uptick Network Technology Architecture</div>
 
 **Uptick Network Infrastructure | Key Components**
 
 ### 3. Uptick Chain
 
 <img src="./image/UptickChain.png" style="width: 90%;">
-<center>Figure 2. The Main Components of Uptick Chain</center>
+<div align="center">Figure 2. The Main Components of Uptick Chain</div>
 
 Uptick Chain is an NFT ecosystem application chain built on the Cosmos-SDK that provides comprehensive underlying support for a range of different NFT application scenarios, including cross-chain NFT asset support. It integrates the IBC cross-chain features of the Cosmos Ecosystem and is fully compatible with the mainstream EVM system, allowing Uptick Chain to offer extensive additional underlying support for NFT applications.
 
@@ -129,7 +129,7 @@ Uptick chain supports cross-chain transfers including EVM contracts based on the
 
 <img src="./image/BuiltonCosmos-SDK.png" style="width: 80%;">
 
-<center>Figure 3. The Role of Cosmos SDK in Uptick Chain </center>
+<div align="center">Figure 3. The Role of Cosmos SDK in Uptick Chain </div>
 
 
 In the Cosmos Ecosystem, developers can use the Cosmos-SDK to build custom blockchain applications, achieving highly customizable, modular, secure, and high-performance decentralized applications.
@@ -196,7 +196,7 @@ Therefore, Uptick provides support for mainstream EVM and WASM contracts and sea
 
 <img src="./image/MajorSmartContract.png" style="width: 80%;">
 
-<center>Figure 4. Uptick NFT/NT Conversion</center>
+<div align="center">Figure 4. Uptick NFT/NT Conversion</div>
 
  **Benefits of this Approach：**
 
@@ -213,7 +213,7 @@ It should be noted that the underlying technology of blockchain contracts is con
 ### 4. Base Layer Modules
 
 <img src="./image/BaseLayerModules.png" style="width: 80%;">
-<center>Figure 5. Base Layer Modules</center>
+<div align="center">Figure 5. Base Layer Modules</div>
 
 Uptick Network has built a complete set of fundamental modules in the upper layer of the Uptick Chain, which have been continuously improved through long-term practice.
 
@@ -250,7 +250,7 @@ Through these features, Uptick aims to provide a more seamless and integrated bl
 #### 4.2. Uptick Cross-chain Bridge (UCB)
 
 <img src="./image/UptickCross-chainBridge.png" style="width: 90%;">
-<center>Figure 6. Uptick Cross-chain Bridge (UCB1.0) And IBC </center>
+<div align="center">Figure 6. Uptick Cross-chain Bridge (UCB1.0) And IBC </div>
 
 In Cosmos-SDK, Tendermint light clients use twisted Edwards curves (Ed25519) which are not compatible with the Ethereum chain that operates on BN254. Consequently, on-chain validation of Ed25519 signatures on Ethereum is inefficient and expensive.
 
@@ -271,7 +271,7 @@ Unlike IBC, which mainly focuses on cross-chain operations within the Cosmos Eco
 *  The UCB2.0 platform also utilizes the rollup mechanism to facilitate batch processing and verification of transactions. This helps reduce transaction fees and improve transaction throughput, resulting in a more efficient and cost-effective cross-chain solution.
 
 <img src="./image/UCB2Flow.png" style="width: 90%;">
-<center>Figure 7. Uptick Cross-chain Bridge (UCB2.0) </center>
+<div align="center">Figure 7. Uptick Cross-chain Bridge (UCB2.0) </div>
 
 #### 4.3. Uptick Storage
 
@@ -334,7 +334,7 @@ Uptick Network actively seeks collaboration with technical community teams, in a
 The Uptick Protocol is a modular business protocol created by the Uptick core team. Its primary objective is to support a range of NFT business scenarios. By offering a flexible and adaptable framework, the Uptick Protocol allows developers to create and implement diverse use cases for NFTs, promoting innovation and growth within the NFT ecosystem.
 
  <img src="./image/UptickProtocol.png" style="width: 80%;">
- <center>Figure 8. Uptick Protocol </center>
+ <div align="center">Figure 8. Uptick Protocol </div>
 
 #### 5.1. Programmable NFT Protocol
 
@@ -448,7 +448,7 @@ As Web3 continues to evolve, more universal protocols will be developed, optimiz
 The Uptick framework is built on top of the Uptick Chain and its underlying modules, adhering to the Uptick Protocol development standards. This framework is presented to the community developers as a fundamental infrastructure. Furthermore, based on the requirements of various businesses, Uptick Network offers several service modules related to business within the fundamental framework, with the following specific features:
 
  <img src="./image/FrameworkandServices.png" style="width: 90%;">
-<center>Figure 9. Uptick Framework Services </center>
+<div align="center">Figure 9. Uptick Framework Services </div>
 
 #### 6.1. Omnichannel Payment Module
 
