@@ -1,5 +1,5 @@
-# Uptick Ecosystem Development Whitepaper- [Uptick Ecosystem Development Whitepaper](#uptick-ecosystem-development-whitepaper)
-- [Uptick Ecosystem Development Whitepaper- Uptick Ecosystem Development Whitepaper](#uptick-ecosystem-development-whitepaper--uptick-ecosystem-development-whitepaper)
+# Uptick Ecosystem Development Whitepaper
+
   - [1. Abstract](#1-abstract)
   - [2. Introduction](#2-introduction)
   - [3. Overview](#3-overview)
