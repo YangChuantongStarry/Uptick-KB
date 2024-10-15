@@ -23,7 +23,7 @@
     - [5.6 Omni-Payment \& Wallet Service](#56-omni-payment--wallet-service)
     - [5.7 Asset Vault \& Trading Service](#57-asset-vault--trading-service)
     - [5.8 Philosophy of Thick Protocols and Services, Thin Applications](#58-philosophy-of-thick-protocols-and-services-thin-applications)
-  - [6. Roadmap for Uptick Web3 Economy Models and Services](#6-roadmap-for-uptick-web3-economy-models-and-services)
+  - [6. Roadmap for Uptick Protocols and Services](#6-roadmap-for-Uptick-Protocols-and-Services)
     - [6.1 Future Developments](#61-future-developments)
     - [6.2 Timeline for Protocols and Services](#62-timeline-for-protocols-and-services)
   - [7. Conclusion](#7-conclusion)
@@ -641,7 +641,7 @@ The concept of thick protocols refers to the development of comprehensive and mu
 
 In contrast, thin applications are designed to be lightweight, specialized, and focused on specific use cases or user needs. Leveraging the extensive underlying protocols, developers can build applications that are efficient and adaptable, without the need for complex infrastructure development. This allows for a flexible, user-centric approach where applications can easily integrate and interact with the ecosystem’s core services. For example, an e-commerce platform built on Uptick can focus on user experience, product listings, and marketplace features while relying on Uptick's pre-built protocols for payments, NFT tokenization, and cross-border asset transfers. This separation of concerns empowers developers to innovate on the application layer, while the protocol layer handles the complexities of security, scalability, and interoperability. This philosophy sets the stage for long-term growth, where the strength of the protocol layer provides the foundation for a diverse range of decentralized applications, driving mass adoption of Web3 in the real economy. Following this 'thick protocol, thin application' approach, Uptick makes sure its ecosystem remains scalable, flexible, and capable of supporting a wide array of future use cases.
 
-## 6. Roadmap for Uptick Web3 Economy Models and Services
+## 6. Roadmap for Uptick Protocols and Services
 
 ### 6.1 Future Developments
 
