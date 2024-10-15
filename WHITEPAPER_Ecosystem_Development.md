@@ -1,5 +1,5 @@
-# Uptick Ecosystem Development Whitepaper
-
+# Uptick Ecosystem Development Whitepaper- [Uptick Ecosystem Development Whitepaper](#uptick-ecosystem-development-whitepaper)
+- [Uptick Ecosystem Development Whitepaper- Uptick Ecosystem Development Whitepaper](#uptick-ecosystem-development-whitepaper--uptick-ecosystem-development-whitepaper)
   - [1. Abstract](#1-abstract)
   - [2. Introduction](#2-introduction)
   - [3. Overview](#3-overview)
@@ -27,7 +27,8 @@
     - [6.1 Future Developments](#61-future-developments)
     - [6.2 Timeline for Protocols and Services](#62-timeline-for-protocols-and-services)
   - [7. Conclusion](#7-conclusion)
-  - [References](#references)
+  - [8. References](#8-references)
+
 
 ## 1. Abstract
 
@@ -756,7 +757,7 @@ Uptick Network’s infrastructure bridges Web3 and the real economy, reshaping h
 
 _**"The best way to predict the future is to invent it"**_ _**—** Alan Kay_
 
-## 8.References
+## 8. References
 
 * Uptick Network (2024, August 28). _Just DAO It: Decentralizing Decision-Making_. [Medium](https://medium.com/uptick-network/just-dao-it-decentralizing-decision-making-f4b4f630abf9)
 * Uptick Network (2024, July 30). _Insights from the OffChain Global Panel: A Q\&A with Brian Xin, Founder of Uptick Network_. [Medium](https://uptickproject.medium.com/insights-from-the-offchain-global-panel-a-q-a-with-brian-xin-founder-of-uptick-network-6c910522d658)
