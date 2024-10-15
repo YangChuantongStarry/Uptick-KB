@@ -1,5 +1,7 @@
 # Uptick Ecosystem Development Whitepaper
 
+[TOC]
+
 ### 1. Abstract
 
 This Ecosystem Development Whitepaper is the third installment of Uptick Network’s white paper series. The first two focused on technical aspects and economic models. With this installment, we aim to systematically explain Uptick's approach across mission, philosophy, technology, models, and development. Unlike the previous papers, this document covers a broader scope and will evolve over time.
