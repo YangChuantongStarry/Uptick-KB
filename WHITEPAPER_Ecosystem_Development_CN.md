@@ -431,7 +431,7 @@ Uptick 网络基于具有 EVM 和 WASM 扩展的 Cosmos-SDK 构建，提供可�
 Uptick 的模块化服务使企业能够构建定制的应用程序，而不受僵化系统的限制。这种灵活的架构可适应扩展需求和未来的区块链创新，使企业能够在 Uptick 生态系统中高效地开发、部署和运营应用程序。
 
 
-<figure><img src=".gitbook/assets_CN/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/image.jpg" alt=""><figcaption></figcaption></figure>
 
 ### 5.1 忠诚度和权利管理
 
