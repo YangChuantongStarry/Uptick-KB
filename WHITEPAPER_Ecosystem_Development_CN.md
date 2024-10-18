@@ -103,7 +103,7 @@ Web3 经济模型提供了结构化的框架，用于指导去中心化应用程
 Uptick Network 通过旨在解决现代数字市场面临的核心问题的基础设施重新构想了 Web3 电子商务。 Uptick 利用去中心化协议，为企业和消费者提供更强的数据控制能力、降低交易成本和提高透明度。该基础设施旨在简化运营流程、最大限度地减少对中介机构的依赖，并为数字商务创造更安全、更可信的环境。
 
 
-<figure><img src=".gitbook/assets/01_Web3-E-Commerce-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/01_Web3-E-Commerce-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **数据管理**&#x20;
 
@@ -186,7 +186,7 @@ Uptick 的 Web3 创作者经济提供了全面的基础设施，旨在满足现�
 Uptick 通过整合现实世界资产 (RWA) 机制，将链上资产与实体作品连接起来，为创作者提供安全代币化和管理版权的工具。该系统使数字和实体作品的创作者受益，增强了他们控制收益和加强生态系统的能力。Uptick 的基础设施使创作者能够管理他们的资产，保护他们的版税，并参与支持创作者、知识产权所有者及其社区的去中心化创作者经济，从而为所有参与者创造一个更具包容性和公平性的生态系统。
 
 
-<figure><img src=".gitbook/assets/02_Web3-Creator-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/02_Web3-Creator-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **所有权和控制权**&#x20;
 
@@ -236,7 +236,7 @@ Uptick Network 通过提供去中心化工具重新定义了创作者经济，�
 
 Uptick Network 直接解决了传统票务和粉丝参与系统的低效率和局限性。通过集成可编程 NFT、去中心化身份管理和跨链互操作性，Uptick 实现了安全、透明和可扩展的解决方案，赋予创作者权力并增强粉丝参与度：
 
-<figure><img src=".gitbook/assets/03_Web3-Ticketing-&#x26;-Fan-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/03_Web3-Ticketing-&#x26;-Fan-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **基于 NFT 的票务和转售控制**&#x20;
 
@@ -294,7 +294,7 @@ Uptick Network 提供 Web3 基础设施，可解决票务和粉丝经济中透�
 
 Uptick Network 提供全面的基础设施，旨在支持去中心化、安全和可扩展的共享经济。Uptick 上的可编程智能合约、去中心化身份管理和声誉系统可实现跨多个平台的高效透明资源共享：
 
-<figure><img src=".gitbook/assets/04_Web3-Sharing-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/04_Web3-Sharing-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **去中心化资源分配和支付**&#x20;
 
@@ -340,7 +340,7 @@ Uptick Network 消除了传统中心化共享经济平台的限制，并实现�
 
 Uptick Network 提供全面的基础设施，专门用于支持广泛应用中的去中心化治理。通过其模块化框架、去中心化管理工具以及与各种区块链生态系统的灵活集成，Uptick 实现了透明的决策，并赋予社区塑造其项目方向的能力。这种基础设施使 DAO 能够以可扩展性和适应性的方式运行，使治理流程具有包容性、高效性并与生态系统不断变化的需求保持一致。
 
-<figure><img src=".gitbook/assets/05_Web3-DAO-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/05_Web3-DAO-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **模块化治理和智能合约基础设施**&#x20;
 
@@ -394,7 +394,7 @@ Uptick Network 提供高度模块化的框架，旨在支持各种应用程序�
 
 Uptick Network 使用可编程 NFT、去中心化治理和跨链支持简化了忠诚度计划。企业可以根据用户活动提供适应性奖励，而用户则通过去中心化身份控制其数据。Uptick 的平台还允许跨生态系统轻松交易奖励，从而提供灵活性和透明度：
 
-<figure><img src=".gitbook/assets/06_Web3-Loyalty-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/06_Web3-Loyalty-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **可编程 NFT 实现忠诚度**&#x20;
 
@@ -431,7 +431,7 @@ Uptick 网络基于具有 EVM 和 WASM 扩展的 Cosmos-SDK 构建，提供可�
 Uptick 的模块化服务使企业能够构建定制的应用程序，而不受僵化系统的限制。这种灵活的架构可适应扩展需求和未来的区块链创新，使企业能够在 Uptick 生态系统中高效地开发、部署和运营应用程序。
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_CN/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 5.1 忠诚度和权利管理
 
