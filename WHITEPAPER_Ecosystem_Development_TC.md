@@ -483,7 +483,7 @@ Uptick Network 提供高度模組化的框架，旨在支援各種應用程式�
 Uptick Network 使用可程式 NFT、去中心化治理和跨鏈支援簡化了忠誠度計劃。企業可以根據使用者活動提供適應性獎勵，而使用者則透過去中心化身分控制其資料。 Uptick 的平台還允許跨生態系統輕鬆交易獎勵，從而提供靈活性和透明度：
 
 
-<figure><img src=".gitbook/assets_TC/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/image.jpg" alt=""><figcaption></figcaption></figure>
 
 ### 5.1 忠誠度與權利管理
 
