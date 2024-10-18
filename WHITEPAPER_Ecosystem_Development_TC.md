@@ -74,7 +74,7 @@ Web3 經濟模型提供了結構化的框架，用於指導去中心化應用程
 本節概述了 Uptick Network 實施的關鍵 Web3 經濟模型，並探討了這些模型如何改變傳統的經濟結構。透過詳細研究每個模型，我們重點介紹了它們的實際應用及其在推進去中心化生態系統方面的作用，為 Web3 經濟的更廣泛增長做出了貢獻。
 
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.1 Web3 電子商務經濟
 
@@ -103,7 +103,7 @@ Web3 經濟模型提供了結構化的框架，用於指導去中心化應用程
 Uptick Network 透過旨在解決現代數位市場面臨的核心問題的基礎架構重新構想了 Web3 電子商務。 Uptick 利用去中心化協議，為企業和消費者提供更強的資料控制能力、降低交易成本和提高透明度。該基礎設施旨在簡化營運流程、最大限度地減少對中介機構的依賴，並為數位商務創造更安全、更可信的環境。
 
 
-<figure><img src=".gitbook/assets/01_Web3-E-Commerce-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/01_Web3-E-Commerce-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **資料管理**&#x20;
 
@@ -186,7 +186,7 @@ Uptick 的 Web3 創作者經濟提供了全面的基礎設施，旨在滿足現�
 Uptick 透過整合現實世界資產 (RWA) 機制，將鏈上資產與實體作品連結起來，為創作者提供安全代幣化和管理版權的工具。該系統使數位和實體作品的創作者受益，增強了他們控制收益和加強生態系統的能力。 Uptick 的基礎設施使創作者能夠管理他們的資產，保護他們的版稅，並參與支持創作者、智慧財產權所有者及其社區的去中心化創作者經濟，從而為所有參與者創造一個更具包容性和公平性的生態系。
 
 
-<figure><img src=".gitbook/assets/02_Web3-Creator-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/02_Web3-Creator-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **所有權與控制權**&#x20;
 
@@ -236,7 +236,7 @@ Uptick Network 透過提供去中心化工具重新定義了創作者經濟，�
 
 Uptick Network 直接解決了傳統票務和粉絲參與系統的低效率和限制。透過整合可程式 NFT、去中心化身分管理和跨鏈互通性，Uptick 實現了安全、透明和可擴展的解決方案，賦予創作者權力並增強粉絲參與度：
 
-<figure><img src=".gitbook/assets/03_Web3-Ticketing-&#x26;-Fan-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/03_Web3-Ticketing-&#x26;-Fan-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **基於 NFT 的票務和轉售控制**&#x20;
 
@@ -294,7 +294,7 @@ Uptick Network 提供 Web3 基礎設施，可解決票務和粉絲經濟中透�
 
 Uptick Network 提供全面的基礎設施，旨在支援去中心化、安全和可擴展的共享經濟。 Uptick 上的可程式智慧合約、去中心化身分管理和聲譽系統可實現跨多個平台的高效透明資源共享：
 
-<figure><img src=".gitbook/assets/04_Web3-Sharing-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/04_Web3-Sharing-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **去中心化資源分配與支付**&#x20;
 
@@ -340,7 +340,7 @@ Uptick Network 消除了傳統中心化共享經濟平台的限制，並實現�
 
 Uptick Network 提供全面的基礎設施，專門用於支援廣泛應用中的去中心化治理。透過其模組化框架、去中心化管理工具以及與各種區塊鏈生態系統的靈活集成，Uptick 實現了透明的決策，並賦予社區塑造其專案方向的能力。這種基礎設施使 DAO 能夠以可擴展性和適應性的方式運行，使治理流程具有包容性、高效性並與生態系統不斷變化的需求保持一致。
 
-<figure><img src=".gitbook/assets/05_Web3-DAO-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/05_Web3-DAO-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **模組化治理與智慧合約基礎設施**&#x20;
 
@@ -394,7 +394,7 @@ Uptick Network 提供高度模組化的框架，旨在支援各種應用程式�
 
 Uptick Network 使用可程式 NFT、去中心化治理和跨鏈支援簡化了忠誠度計劃。企業可以根據使用者活動提供適應性獎勵，而使用者則透過去中心化身分控制其資料。 Uptick 的平台還允許跨生態系統輕鬆交易獎勵，從而提供靈活性和透明度：
 
-<figure><img src=".gitbook/assets/06_Web3-Loyalty-Economy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/06_Web3-Loyalty-Economy.jpg" alt=""><figcaption></figcaption></figure>
 
 **可编程 NFT 实现忠诚度**&#x20;
 
@@ -481,7 +481,7 @@ Uptick Network 提供高度模組化的框架，旨在支援各種應用程式�
 Uptick Network 使用可程式 NFT、去中心化治理和跨鏈支援簡化了忠誠度計劃。企業可以根據使用者活動提供適應性獎勵，而使用者則透過去中心化身分控制其資料。 Uptick 的平台還允許跨生態系統輕鬆交易獎勵，從而提供靈活性和透明度：
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets_TC/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 5.1 忠誠度與權利管理
 
