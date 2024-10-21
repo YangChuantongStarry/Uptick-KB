@@ -13,7 +13,7 @@ In this first edition, we emphasize the concept and methodology behind Uptick’
 
 This whitepaper will remain a ‘Live Document’ continuously updated as the Uptick protocol and service layers expand and as more ecosystem applications are developed and adopted. We also invite thought leaders to participate in shaping this ecosystem, combining theoretical exploration with practical implementation to build an infrastructure that supports the real economy and achieves widespread Web3 adoption.
 
-### For more details, please refer to the full white paper, which is available in multiple languages:
+### For more details, please refer to the full whitepapers, which are available in multiple languages:
 
 · [Ecosystem Development White Paper-EN](WHITEPAPER_Ecosystem_Development_EN.md)
 
