@@ -6,13 +6,12 @@ Welcome to the Uptick Network Knowledge Base. You can access our White Paper her
 Uptick Network is a comprehensive, business-grade digital asset infrastructure and ecosystem built on Uptick Chain; a high-performance blockchain based on the Cosmos-SDK. Its aim is to support a wide range of NFT-based applications and business scenarios by providing a modular and scalable infrastructure.
 
 The key components of the Uptick Network are:
-· Inter-Blockchain Communication (IBC): For seamless interoperability between different blockchains
-· Uptick Chain Bridge (UCB): Cross-chain bridge for smooth asset transfer between different blockchains
-· Interplanetary File System (IPFS): A secure distributed storage solution for metadata
-· Decentralized Identity (DID): Decentralized identity management system
-· Oracle: Decentralized oracle network connecting blockchain to real-world data
-· Layer 2 Solutions: For enhanced scalability and reduced transaction costs
-
+* Inter-Blockchain Communication (IBC): For seamless interoperability between different blockchains
+* Uptick Chain Bridge (UCB): Cross-chain bridge for smooth asset transfer between different blockchains
+* Interplanetary File System (IPFS): A secure distributed storage solution for metadata
+* Decentralized Identity (DID): Decentralized identity management system
+* Oracle: Decentralized oracle network connecting blockchain to real-world data
+* Layer 2 Solutions: For enhanced scalability and reduced transaction costs
 
 Uptick Network also integrates an EVM (Ethereum Virtual Machine) module and WASM (WebAssembly) support, enabling compatibility with a wide variety of smart contracts and dApps.
 
