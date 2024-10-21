@@ -5,7 +5,7 @@ Welcome to the Uptick Network Knowledge Base. You can access our White Paper her
 
 ## [Tokenomics White Paper](WHITEPAPER_Tokenomics.md)
 
-## [Ecosystem Development White Paper]
+## Ecosystem Development White Paper
 
 This Ecosystem Development Whitepaper is the third installment of Uptick Network’s white paper series. The first two focused on technical aspects and economic models. With this installment, we aim to systematically explain Uptick's approach across mission, philosophy, technology, models, and development. Unlike the previous papers, this document covers a broader scope and will evolve over time.
 
