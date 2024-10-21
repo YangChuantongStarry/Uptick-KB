@@ -27,6 +27,12 @@ The development and expansion of Uptick Network is driven by a combination of th
 
 ## Tokenomics White Paper
 
+Uptick Network's vision is to provide a fundamental framework for the creation and use of high-quality NFTs in the business world. This includes the necessary underlying blockchain technology, along with various other tools to support an array of different commercial environments.
+﻿
+Uptick Network's tokenomic model includes multiple layers, such as general governance, Uptick DAO governance, and a multi-chain economy model. This combined model is more comprehensive and scalable than a simple chain-based model, with token economics at each layer ensuring chain-level security and supporting the healthy growth of business grade ecosystems.
+﻿
+Furthermore, Uptick Network intends to introduce a long-term performance based dev-mining program aimed at gradually expanding infrastructure and supporting a diverse range of ecosystem applications.
+
 ### For more details, please refer to the full whitepaper:
 
 · [Tokenomics White Paper-EN](WHITEPAPER_Tokenomics.md)
