@@ -3,6 +3,23 @@ Welcome to the Uptick Network Knowledge Base. You can access our White Paper her
 
 ## Technical White Paper
 
+Uptick Network is a comprehensive, business-grade digital asset infrastructure and ecosystem built on Uptick Chain; a high-performance blockchain based on the Cosmos-SDK. Its aim is to support a wide range of NFT-based applications and business scenarios by providing a modular and scalable infrastructure.
+
+The key components of the Uptick Network are:
+· Inter-Blockchain Communication (IBC): For seamless interoperability between different blockchains
+· Uptick Chain Bridge (UCB): Cross-chain bridge for smooth asset transfer between different blockchains
+· Interplanetary File System (IPFS): A secure distributed storage solution for metadata
+· Decentralized Identity (DID): Decentralized identity management system
+· Oracle: Decentralized oracle network connecting blockchain to real-world data
+· Layer 2 Solutions: For enhanced scalability and reduced transaction costs
+
+
+Uptick Network also integrates an EVM (Ethereum Virtual Machine) module and WASM (WebAssembly) support, enabling compatibility with a wide variety of smart contracts and dApps.
+
+Additionally, the network features the modular Uptick Protocol and service modules, along with a development framework designed to support various NFT business scenarios, and a flagship NFT marketplace as a key application within the ecosystem.
+
+The development and expansion of Uptick Network is driven by a combination of the core team's efforts and active collaborations with the global community and industry partners through community governance and DAO mechanisms.
+
 ### For more details, please refer to the full whitepaper:
 
 · [Technical White Paper](WHITEPAPER_Technical.md)
