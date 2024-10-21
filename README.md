@@ -19,7 +19,7 @@ Additionally, the network features the modular Uptick Protocol and service modul
 
 The development and expansion of Uptick Network is driven by a combination of the core team's efforts and active collaborations with the global community and industry partners through community governance and DAO mechanisms.
 
-### For more details, please refer to the full whitepaper:
+#### For more details, please refer to the full whitepaper: 
 
 · [Technical White Paper-EN](WHITEPAPER_Technical.md)
 
@@ -33,7 +33,7 @@ Uptick Network's tokenomic model includes multiple layers, such as general gover
 ﻿
 Furthermore, Uptick Network intends to introduce a long-term performance based dev-mining program aimed at gradually expanding infrastructure and supporting a diverse range of ecosystem applications.
 
-### For more details, please refer to the full whitepaper:
+#### For more details, please refer to the full whitepaper:
 
 · [Tokenomics White Paper-EN](WHITEPAPER_Tokenomics.md)
 
@@ -47,7 +47,7 @@ In this first edition, we emphasize the concept and methodology behind Uptick’
 
 This whitepaper will remain a ‘Live Document’ continuously updated as the Uptick protocol and service layers expand and as more ecosystem applications are developed and adopted. We also invite thought leaders to participate in shaping this ecosystem, combining theoretical exploration with practical implementation to build an infrastructure that supports the real economy and achieves widespread Web3 adoption.
 
-### For more details, please refer to the full whitepapers in multiple languages:
+#### For more details, please refer to the full whitepapers in multiple languages:
 
 · [Ecosystem Development White Paper-EN](WHITEPAPER_Ecosystem_Development_EN.md)
 
