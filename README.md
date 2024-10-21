@@ -9,6 +9,6 @@ Welcome to the Uptick Network Knowledge Base. You can access our White Paper her
 
 ### Languages
 
-· [Ecosystem Development White Paper-CN](WHITEPAPER_Ecosystem_Development_CN.md)
+· [Ecosystem Development White Paper-CN](Languages/WHITEPAPER_Ecosystem_Development_CN.md)
 
-· [Ecosystem Development White Paper-TC](WHITEPAPER_Ecosystem_Development_TC.md)
+· [Ecosystem Development White Paper-TC](Languages/WHITEPAPER_Ecosystem_Development_TC.md)
