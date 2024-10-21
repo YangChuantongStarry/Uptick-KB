@@ -21,13 +21,17 @@ The development and expansion of Uptick Network is driven by a combination of th
 
 ### For more details, please refer to the full whitepaper:
 
-· [Technical White Paper](WHITEPAPER_Technical.md)
+· [Technical White Paper-EN](WHITEPAPER_Technical.md)
+
+
 
 ## Tokenomics White Paper
 
 ### For more details, please refer to the full whitepaper:
 
-· [Tokenomics White Paper](WHITEPAPER_Tokenomics.md)
+· [Tokenomics White Paper-EN](WHITEPAPER_Tokenomics.md)
+
+
 
 ## Ecosystem Development White Paper
 
