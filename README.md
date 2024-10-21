@@ -5,7 +5,7 @@ Welcome to the Uptick Network Knowledge Base. You can access our White Paper her
 
 ## [Tokenomics White Paper](WHITEPAPER_Tokenomics.md)
 
-## [Ecosystem Development White Paper-EN](WHITEPAPER_Ecosystem_Development_EN.md)
+## [Ecosystem Development White Paper](WHITEPAPER_Ecosystem_Development_EN.md)
 
 ### Languages
 
