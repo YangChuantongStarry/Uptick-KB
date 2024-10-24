@@ -103,7 +103,7 @@ Web3 经济模型提供了结构化的框架，用于指导去中心化应用程
 本节概述了 Uptick Network 实施的关键 Web3 经济模型，并探讨了这些模型如何改变传统的经济结构。通过详细研究每个模型，我们重点介绍了它们的实际应用及其在推进去中心化生态系统方面的作用，为 Web3 经济的更广泛增长做出了贡献。
 
 
-<figure><img src=".gitbook/assets_CN/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets_CN/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.1 Web3 电子商务经济
 
