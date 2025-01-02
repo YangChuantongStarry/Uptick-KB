@@ -54,3 +54,5 @@ This whitepaper will remain a ‘Live Document’ continuously updated as the Up
 · [Ecosystem Development White Paper-CN](Languages/WHITEPAPER_Ecosystem_Development_CN.md)
 
 · [Ecosystem Development White Paper-TC](Languages/WHITEPAPER_Ecosystem_Development_TC.md)
+
+
